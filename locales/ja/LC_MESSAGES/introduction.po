@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, cremaker
+# This file is distributed under the same license as the 크리메이커 매뉴얼 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 크리메이커 매뉴얼 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-09 14:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/introduction.rst:2
+msgid "크리메이커 소개"
+msgstr ""
+
+#: ../../source/introduction.rst:3
+msgid "크리메이커 메탈 V2의 상세 스펙입니다."
+msgstr ""
+
+#: ../../source/introduction.rst:9
+msgid "상세 스펙"
+msgstr ""
+
+#: ../../source/introduction.rst:12
+msgid "크리메이커 메탈 V2"
+msgstr ""
+
+#: ../../source/introduction.rst:14
+msgid "크기"
+msgstr ""
+
+#: ../../source/introduction.rst:14
+msgid "440 x 450 x 520 (mm단위)"
+msgstr ""
+
+#: ../../source/introduction.rst:16
+msgid "무게"
+msgstr ""
+
+#: ../../source/introduction.rst:16
+msgid "약 12kg"
+msgstr ""
+
+#: ../../source/introduction.rst:18
+msgid "정격전압"
+msgstr ""
+
+#: ../../source/introduction.rst:18
+msgid "220v, 24V"
+msgstr ""
+
+#: ../../source/introduction.rst:20
+msgid "소비전력"
+msgstr ""
+
+#: ../../source/introduction.rst:20
+msgid "250w"
+msgstr ""
+
+#: ../../source/introduction.rst:22
+msgid "보드"
+msgstr ""
+
+#: ../../source/introduction.rst:22
+msgid "SKR 2.0 32 bit, TMC2209"
+msgstr ""
+
+#: ../../source/introduction.rst:24
+msgid "디스플레이"
+msgstr ""
+
+#: ../../source/introduction.rst:24
+msgid "BTT TFT 35 E3"
+msgstr ""
+
+#: ../../source/introduction.rst:26
+msgid "레벨링 방식"
+msgstr ""
+
+#: ../../source/introduction.rst:26
+msgid "오토레벨링"
+msgstr ""
+
+#: ../../source/introduction.rst:28
+msgid "출력범위"
+msgstr ""
+
+#: ../../source/introduction.rst:28
+msgid "220mm x 220mm x 260mm"
+msgstr ""
+
+#: ../../source/introduction.rst:30
+msgid "주요사항"
+msgstr ""
+
+#: ../../source/introduction.rst:30
+msgid "인쇄두께 0.1~0.3mm, 인쇄속도 30mm/s ~ 100mm/s"
+msgstr ""
+
+#: ../../source/introduction.rst:32
+msgid "KC 인증 필 유무"
+msgstr ""
+
+#: ../../source/introduction.rst:32
+msgid "KC, CE 인증완료"
+msgstr ""
+

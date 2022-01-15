@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, cremaker
+# This file is distributed under the same license as the 크리메이커 매뉴얼 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 크리메이커 매뉴얼 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-09 14:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/index.rst:7
+msgid "크리메이커 매뉴얼"
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid "3D 프린터 크리메이커의 매뉴얼업니다."
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "크리메이커의 공식 카페는 http://www.cremaker.com 입니다."
+msgstr ""
+
+#: ../../source/index.rst:15
+msgid "※현재 매뉴얼은 크리메이커 메탈V2 모델만 포함된 상태입니다."
+msgstr ""
+

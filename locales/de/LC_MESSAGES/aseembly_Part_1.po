@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, cremaker
+# This file is distributed under the same license as the 크리메이커 매뉴얼 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 크리메이커 매뉴얼 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-09 14:24+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/aseembly_Part_1.rst:2
+msgid "조립하기 1"
+msgstr ""
+
+#: ../../source/aseembly_Part_1.rst:17
+msgid ":orange:`●` XY 프로파일(A)를 준비합니다. 볼트 홈(A-1)을 참고하여, 앞뒤 방향에 주의합니다."
+msgstr ""
+

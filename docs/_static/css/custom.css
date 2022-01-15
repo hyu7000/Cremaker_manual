@@ -1,0 +1,10 @@
+
+.rst-content .line-block {
+    line-height:35px;
+}
+
+center-text-for-figure {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}

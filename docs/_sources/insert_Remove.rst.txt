@@ -1,3 +1,5 @@
+.. _targetInsertRemoveMenu:
+
 삽입/제거
 ^^^^^^^^^^^^^^^^^^^^^
 

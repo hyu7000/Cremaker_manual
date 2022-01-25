@@ -1,3 +1,5 @@
+.. _targetReadyCheckMenu:
+
 준비/점검
 ^^^^^^^^^^^^^^^^^^^^^
 

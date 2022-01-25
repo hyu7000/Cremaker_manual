@@ -1,3 +1,5 @@
+.. _targetTemperFanMenu:
+
 온도/팬
 ^^^^^^^^^^^^^^^^^^^^^
 

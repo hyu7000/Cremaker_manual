@@ -29,14 +29,12 @@
    :width: 800
 
 |
-| :ref:`온도/팬 <targetTemperFanMenu to paragraph>` : 예열과 팬 속도를 조절할 수 있는 메뉴 모음.
-| :ref:`이동 <targetMoveMenu to paragraph>` : 원점 이동(오토홈)과 각축을 각각 제어할 수 있는 메뉴 모음.
-| :ref:`삽입/제거 <targetInsertRemoveMenu to paragraph>` : 필라멘트를 삽입하거나 제거하고, 무게를 설정할 수 있는 메뉴 모음.
-| :ref:`준비/점검 <targetReadyCheckMenu to paragraph>` : 출력전 프린터를 점검하거나 준비하는 과정에 필요한 메뉴 모음.
-| :ref:`세부조정 <targetDetailedCali to paragraph>`: 출력물 품질을 높이기 위해 필요한 기능이 있는 메뉴 모음.
+| :ref:`온도/팬 <targetTemperFanMenu>` : 예열과 팬 속도를 조절할 수 있는 메뉴 모음.
+| :ref:`이동 <targetMoveMenu>` : 원점 이동(오토홈)과 각축을 각각 제어할 수 있는 메뉴 모음.
+| :ref:`삽입/제거 <targetInsertRemoveMenu>` : 필라멘트를 삽입하거나 제거하고, 무게를 설정할 수 있는 메뉴 모음.
+| :ref:`준비/점검 <targetReadyCheckMenu>` : 출력전 프린터를 점검하거나 준비하는 과정에 필요한 메뉴 모음.
+| :ref:`세부조정 <targetDetailedCali>`: 출력물 품질을 높이기 위해 필요한 기능이 있는 메뉴 모음.
 | :ref:`설정 <targetSettingsMenu to paragraph>` : 기계적인 설정을 하는 메뉴 모음.
-
-.. _targetTemperFanMenu to paragraph:
 
 |
 | :subtitle:`온도/팬`
@@ -49,8 +47,6 @@
 | 온도 : 정해지지 않은 온도들을 직접 지정할 때 사용하는 메뉴.
 | 팬 : 쿨링팬의 속도를 조절하는 메뉴.
 | 냉각 : 현재 온도가 예열된 상태라면, 예열을 멈추고 냉각을 시작하라는 메뉴.
-
-.. _targetMoveMenu to paragraph:
 
 |
 | :subtitle:`이동`
@@ -66,8 +62,6 @@
 | Z 조정 : Z 프로브 오프셋 조정을 인위적으로 할 수 있는 기능.
 | 베드 레벨 : 레벨링과 관련된 세부항목을 살펴보거나 조절할 수 있는 메뉴 모음.
 
-.. _targetInsertRemoveMenu to paragraph:
-
 |
 | :subtitle:`삽입/제거`
 
@@ -78,8 +72,6 @@
 | 무게 설정 : 필라멘트의 무게를 설정하는 메뉴 모음.
 | 삽입 : 필라멘트를 삽입하는 기능.
 | 제거 : 필라멘트를 제거하는 기능.
-
-.. _targetReadyCheckMenu to paragraph:
 
 |
 | :subtitle:`준비/점검`
@@ -94,8 +86,6 @@
 | 필라멘트 : 필라멘트 압출 관련 성능을 점검하는 기능.
 | Z 수평 조절 : X축 좌우가 수평을 맞추고, 베드 전체의 Z 방향 수평도 맞추는 기능.
 | 레벨링 : 오토레벨링을 이용하여 Z 프로브 오프셋 값을 조절하는 기능.
-
-.. _targetDetailedCali to paragraph:
 
 |
 | :subtitle:`세부 조정`

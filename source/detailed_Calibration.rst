@@ -12,7 +12,6 @@
     .subtitle {color:black; font-weight:bold; font-size:28px}
     .blackbold {color:black; font-weight:bold;}
     .redbold {color:red; font-weight:bold;}
-    .centertext {text-align: center;}
     </style>
 
 .. role:: orangecircle
@@ -23,7 +22,6 @@
 .. role:: subtitle
 .. role:: blackbold
 .. role:: redbold
-.. role:: centertext
 
 .. image:: /images/MenuUI/7_Detailed_Calibration_Menu.jpg
    :width: 800
@@ -214,6 +212,7 @@ PID
 | :blackcircle:`●` 정상적으로 원점 이동이 되면, 감도가 적절한 수준입니다.
 | :orangecircle:`●` 조절이 되었으면, 저장 버튼을 누릅니다.
 
+.. _targetZAdjust:
 
 Z 보정
 ~~~~~~~~~~~~~~

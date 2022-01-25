@@ -6,4 +6,5 @@
    typeOfError
    cannotInsertFila
    abnormalPrinted
+   electricalError
    disassemblyExtruder

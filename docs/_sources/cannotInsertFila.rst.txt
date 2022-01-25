@@ -1,3 +1,5 @@
+.. _targetCannotInsertFila:
+
 필라멘트가 삽입되지 않는 경우
 --------------------------------------
 
@@ -12,7 +14,6 @@
     .subtitle {color:black; font-weight:bold; font-size:28px}
     .blackbold {color:black; font-weight:bold;}
     .redbold {color:red; font-weight:bold;}
-    .centertext {text-align: center;}
     </style>
 
 .. role:: orangecircle
@@ -23,7 +24,6 @@
 .. role:: subtitle
 .. role:: blackbold
 .. role:: redbold
-.. role:: centertext
 
 
 | 필라멘트가 삽입이 되지 않는 경우가 간혹 있습니다. 이런 문제는 여러 가지 원인이 있습니다. 필라멘트가 통과하는 경로의 일부가 막혔거나 혹은 굽어진 필라멘트가 일부 틈에 걸려서 내려가지 않는 경우가 있을 수 있습니다. 아래 사진에서 보는 것과 같이 걸리는 구간과 막히는 구간이 있습니다. 어디서 걸렸는지 어디서 안 내려가는지 확인하려면 필라멘트가 들어간 깊이를 확인해 주는 것이 좋습니다. 

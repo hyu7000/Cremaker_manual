@@ -12,7 +12,6 @@
     .subtitle {color:black; font-weight:bold; font-size:28px}
     .blackbold {color:black; font-weight:bold;}
     .redbold {color:red; font-weight:bold;}
-    .centertext {text-align: center;}
     </style>
 
 .. role:: orangecircle
@@ -23,7 +22,6 @@
 .. role:: subtitle
 .. role:: blackbold
 .. role:: redbold
-.. role:: centertext
 
 .. image:: /images/MenuUI/4_Move_Menu.jpg
    :width: 800
@@ -35,6 +33,11 @@
 | St. A 해제 : 스텝 모터가 Hold 상태일 때 Hold를 해제하는 기능.
 | Z 조정 : Z 프로브 오프셋 조정을 인위적으로 할 수 있는 기능.
 | 베드 레벨 : 레벨링과 관련된 세부항목을 살펴보거나 조절할 수 있는 메뉴 모음.
+
+
+.. _targetHome:
+
+^^^^^^^
 
 |
 | :subtitle:`Home`
@@ -48,6 +51,10 @@
 | Y : Y축만 원점 이동하는 기능
 | Z : Z축만 원점 이동하는 기능
 | ※ Home전 예열을 하는 이유는, 필라멘트가 노즐 끝에 묻어 있으면 정확한 측정이 안되기 때문입니다.
+
+.. _targetMoveMove:
+
+^^^^^^^
 
 |
 | :subtitle:`이동`

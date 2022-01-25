@@ -14,7 +14,6 @@
     .subtitle {color:black; font-weight:bold; font-size:28px}
     .blackbold {color:black; font-weight:bold;}
     .redbold {color:red; font-weight:bold;}
-    .centertext {text-align: center;}
     </style>
 
 .. role:: orangecircle
@@ -25,7 +24,6 @@
 .. role:: subtitle
 .. role:: blackbold
 .. role:: redbold
-.. role:: centertext
 
 .. image:: /images/MenuUI/36_Printing_Screen.jpg
     :width: 800

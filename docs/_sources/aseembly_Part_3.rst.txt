@@ -182,7 +182,7 @@
 | :orangecircle:`●` 그림과 같이 벨트의 이빨이 안쪽으로 감기도록 유의합니다.
 
 |
-| :subtitle:`Step.35`
+| :subtitle:`Step.35`   
 
 .. image:: /images/Assembly_3/step_35.jpg
    :width: 800

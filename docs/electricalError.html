@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="ko" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>전기적인 오류 &mdash; 크리메이커 매뉴얼 1.0 문서</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/translations.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="색인" href="genindex.html" />
+    <link rel="search" title="검색" href="search.html" />
+    <link rel="next" title="익스트루더 분해" href="disassemblyExtruder.html" />
+    <link rel="prev" title="각종 출력물 증상" href="abnormalPrinted.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> 크리메이커 매뉴얼
+            <img src="_static/cremaker_logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">크리메이커 소개</a></li>
+<li class="toctree-l1"><a class="reference internal" href="assembly.html">조립하기</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wiring.html">배선하기</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workingTest.html">작동 테스트</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installCura.html">슬라이싱 프로그램 준비</a></li>
+<li class="toctree-l1"><a class="reference internal" href="menu.html">UI 메뉴 설명</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="maintenance.html">유지보수</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="typeOfError.html">에러 종류</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cannotInsertFila.html">필라멘트가 삽입되지 않는 경우</a></li>
+<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html">각종 출력물 증상</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">전기적인 오류</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#targetcannotonprinter">전원이 켜지지 않는 경우</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#found-outdated-data">업데이트 필요(Found outdated data)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="disassemblyExtruder.html">익스트루더 분해</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">크리메이커 매뉴얼</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="maintenance.html">유지보수</a> &raquo;</li>
+      <li>전기적인 오류</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>전기적인 오류<a class="headerlink" href="#id1" title="이 표제에 대한 퍼머링크"></a></h1>
+<style>
+.orangecircle {color:#ff5300; font-size:20px}
+.blackcircle {color:black; font-size:20px}
+.bluecircle {color:#3172f4; font-size:20px}
+.skybluecircle {color:#00FFFF; font-size:20px}
+.yellowcircle {color:#fbbc05; font-size:20px}
+.subtitle {color:black; font-weight:bold; font-size:28px}
+.blackbold {color:black; font-weight:bold;}
+.redbold {color:red; font-weight:bold;}
+</style><section id="targetcannotonprinter">
+<span id="id2"></span><h2>전원이 켜지지 않는 경우<a class="headerlink" href="#targetcannotonprinter" title="이 표제에 대한 퍼머링크"></a></h2>
+<div class="line-block">
+<div class="line">전원이 켜지지 않는 경우는 4가지 경우가 있습니다.</div>
+</div>
+<div class="line-block">
+<div class="line"><a class="reference internal" href="#targetelecerror1-to-paragraph"><span class="std std-ref">1. 잘못된 디스플레이 통신선 배선</span></a></div>
+<div class="line"><a class="reference internal" href="#targetelecerror2-to-paragraph"><span class="std std-ref">2. 잘못된 위치에 배선 - 보드</span></a></div>
+<div class="line"><a class="reference internal" href="#targetelecerror3-to-paragraph"><span class="std std-ref">3. 잘못된 위치에 배선 - 디스플레이</span></a></div>
+<div class="line"><a class="reference internal" href="#targetelecerror4-to-paragraph"><span class="std std-ref">4. 전원 공급 이상</span></a></div>
+</div>
+<div class="line-block">
+<div class="line">주로 조립 직후 나타나며, 정상 출력 테스트를 진행한 뒤에는 자주 나타나는 증상은 아닙니다.</div>
+</div>
+<div class="line-block" id="targetelecerror1-to-paragraph">
+<div class="line"><span class="blackbold">1.잘못된 디스플레이 통신선 배선</span></div>
+</div>
+<div class="line-block">
+<div class="line">디스플레이의 통신선은 총 5핀이며, 4핀과 1핀으로 나뉘어 있습니다.</div>
+<div class="line">이중 4핀이 반대로 배선되어 있을 가능성이 있습니다. 다음 사진을 보고 배선상태를 확인해보세요.</div>
+</div>
+<a class="reference internal image-reference" href="_images/22_Correct_Display_Wiring.png"><img alt="_images/22_Correct_Display_Wiring.png" src="_images/22_Correct_Display_Wiring.png" style="width: 800px;" /></a>
+<center-text-for-figure>정상적인 디스플레이 배선</center-text-for-figure><a class="reference internal image-reference" href="_images/23_Incorrect_Display_Wiring.png"><img alt="_images/23_Incorrect_Display_Wiring.png" src="_images/23_Incorrect_Display_Wiring.png" style="width: 800px;" /></a>
+<center-text-for-figure>잘못된 디스플레이 배선</center-text-for-figure><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">잘못된 배선은 배선 4핀과 1핀이 꼬여보입니다.(주황색 화살표 참고)</div>
+</div>
+<div class="line-block" id="targetelecerror2-to-paragraph">
+<div class="line"><span class="blackbold">2.잘못된 위치에 배선 - 보드</span></div>
+</div>
+<a class="reference internal image-reference" href="_images/24_Wiring_In_the_wrong_Position_1.png"><img alt="_images/24_Wiring_In_the_wrong_Position_1.png" class="align-center" src="_images/24_Wiring_In_the_wrong_Position_1.png" style="width: 600px;" /></a>
+<center-text-for-figure>잘못된 위치에 디스플레이 배선_1</center-text-for-figure><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><span class="orangecircle">●</span> 정상적인 배선 위치</div>
+<div class="line"><span class="yellowcircle">●</span> 잘못된 배선 위치</div>
+</div>
+<div class="line-block">
+<div class="line">보드에 배선하는 부분이 잘못되었을 경우가 있습니다. 사진의 경우처럼 아랫쪽 5핀에 배선한것이 아닌지 확인해보세요.</div>
+</div>
+<div class="line-block" id="targetelecerror3-to-paragraph">
+<div class="line"><span class="blackbold">3.잘못된 위치에 배선 - 디스플레이</span></div>
+</div>
+<a class="reference internal image-reference" href="_images/25_Wiring_In_the_wrong_Position_2.png"><img alt="_images/25_Wiring_In_the_wrong_Position_2.png" class="align-center" src="_images/25_Wiring_In_the_wrong_Position_2.png" style="width: 600px;" /></a>
+<center-text-for-figure>잘못된 위치에 디스플레이 배선_2</center-text-for-figure><div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><span class="orangecircle">●</span> 정상적인 배선 위치</div>
+<div class="line"><span class="yellowcircle">●</span> 잘못된 배선 위치</div>
+</div>
+<div class="line-block">
+<div class="line">디스플레이에 배선하는 부분이 잘못되었을 경우가 있습니다. 사진의 경우처럼 위쪽쪽 5핀에 배선한것이 아닌지 확인해보세요.</div>
+</div>
+<div class="line-block" id="targetelecerror4-to-paragraph">
+<div class="line"><span class="blackbold">4.전원 공급 이상</span></div>
+</div>
+<a class="reference internal image-reference" href="_images/26_BoardLed_ON.jpg"><img alt="_images/26_BoardLed_ON.jpg" class="align-center" src="_images/26_BoardLed_ON.jpg" style="width: 600px;" /></a>
+<center-text-for-figure>보드에 전원이 들어오는지 확인</center-text-for-figure><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">보드에 전원이 들어오는지 확인할 필요가 있습니다. 보드 커버를 열면, 전원이 켜진 상태에서는 초록색 불들이 들어와야 정상입니다.</div>
+<div class="line">보드에 전원은 들어오지만, 디스플레이에 화면이 켜지지 않는다면, 고객센터로 연락주시기 바랍니다. (☎ 054-604-5880)</div>
+</div>
+<a class="reference internal image-reference" href="_images/27_SMPS_Led_ON.png"><img alt="_images/27_SMPS_Led_ON.png" class="align-center" src="_images/27_SMPS_Led_ON.png" style="width: 600px;" /></a>
+<center-text-for-figure>파워(SMPS)에 전원이 들어오는지 확인</center-text-for-figure><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">보드에 불이 들어오지 않는다면, 파워를 확인해봐야 합니다.</div>
+<div class="line">파워의 안쪽에 초록불이 들어오면, 파워는 전원이 들어오는 상태임을 확인할 수 있습니다.</div>
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="_images/28_Board_Wiring_Only_SMPS_Display.jpg"><img alt="_images/28_Board_Wiring_Only_SMPS_Display.jpg" src="_images/28_Board_Wiring_Only_SMPS_Display.jpg" style="width: 800px;" /></a>
+<center-text-for-figure>파워와 디스플레이만 배선한 상태</center-text-for-figure><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">파워는 불이 들어오지만, 보드는 불이 들어오지 않을 때, 퓨즈를 먼저 확인해봅니다.</div>
+</div>
+<hr class="docutils" id="targetelecfuse" />
+<a class="reference internal image-reference" href="_images/35_Check_Fuse.png"><img alt="_images/35_Check_Fuse.png" class="align-center" src="_images/35_Check_Fuse.png" style="width: 600px;" /></a>
+<div class="line-block">
+<div class="line"><span class="yellowcircle">●</span> 노란색 부분은 베드 열선과 관련된 퓨즈 (15A)</div>
+<div class="line"><span class="orangecircle">●</span> 주황색 부분은 베드 열선을 제외한 모든 전력과 관련된 퓨즈 (10A)</div>
+</div>
+<a class="reference internal image-reference" href="_images/36_Fuse.jpg"><img alt="_images/36_Fuse.jpg" class="align-center" src="_images/36_Fuse.jpg" style="width: 600px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">퓨즈는 보드 아랫쪽에 2개가 삽입되어 있습니다. 퓨즈의 위치와 퓨즈 모양입니다. 이 중에서 주황색으로 표시된 부분의 퓨즈를 뺏다가 다시 삽입해 줍니다. 그리고 다시 전원을 넣어보고, 증상이 같다면, 아래를 읽어주세요.</div>
+</div>
+<div class="line-block">
+<div class="line">모든 배선을 제거하고, 파워와 디스플레이만 다시 배선해줍니다.</div>
+<div class="line">전원 On 하였을 경우 디스플레이, 보드, 파워가 전원이 들어오는지 확인합니다.</div>
+<div class="line">디스플레이까지 전원이 정상적으로 도달한다면, 부품 하나씩 배선해봅니다.</div>
+<div class="line">그래도 디스플레이가 작동하지 않는다면, 고객센터로 연락주시기 바랍니다. (☎ 054-604-5880)</div>
+</div>
+</section>
+<section id="found-outdated-data">
+<h2>업데이트 필요(Found outdated data)<a class="headerlink" href="#found-outdated-data" title="이 표제에 대한 퍼머링크"></a></h2>
+<a class="reference internal image-reference" href="_images/29_Can't_Find_FW.jpg"><img alt="_images/29_Can't_Find_FW.jpg" class="align-center" src="_images/29_Can't_Find_FW.jpg" style="width: 600px;" /></a>
+<center-text-for-figure>펌웨어를 찾지 못하는 상태</center-text-for-figure><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">갑작스러운 전류흐름이나 정전기, 쇼트에 의해서 디스플레이가 펌웨어를 못 찾는 경우가 있습니다.</div>
+<div class="line">이런 경우에는 새로 펌웨어를 업데이트 시켜주시면 됩니다.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">메탈 V2 디스플레이 펌웨어는 아래중 하나를 선택하여 업데이트 해주시면 됩니다.</div>
+<div class="line">업데이트 방법은 해당 링크에 있습니다.</div>
+<div class="line">V1.3 Beta : <a class="reference external" href="https://cafe.naver.com/cremaker/16729">https://cafe.naver.com/cremaker/16729</a></div>
+<div class="line">V1.2 : <a class="reference external" href="https://cafe.naver.com/cremaker/16541">https://cafe.naver.com/cremaker/16541</a></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 저작권 2022, cremaker.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

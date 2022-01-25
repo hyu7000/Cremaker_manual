@@ -12,7 +12,6 @@
     .subtitle {color:black; font-weight:bold; font-size:28px}
     .blackbold {color:black; font-weight:bold;}
     .redbold {color:red; font-weight:bold;}
-    .centertext {text-align: center;}
     </style>
 
 .. role:: orangecircle
@@ -23,7 +22,6 @@
 .. role:: subtitle
 .. role:: blackbold
 .. role:: redbold
-.. role:: centertext
 
 거미줄
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -37,7 +35,9 @@
 .. image:: /images/Maintenance/7_abnormalPrinted_1.jpg
    :width: 800
 
-| :centertext:`거미줄 증상이 나타난 출력물`
+.. raw:: html
+
+    <center-text-for-figure>거미줄 증상이 나타난 출력물</center-text-for-figure>
 
 |
 | 거미줄의 가장 효과적인 해결 방법은 노즐의 온도를 낮추는 것입니다. 물론 보조 냉각팬도 작동을 해야 합니다. 보조 냉각팬이 작동하지 않는다면, 배선이나 작동 확인을 먼저 합니다.
@@ -91,3 +91,80 @@
 | 타이밍 벨트 장력은 적당히 강하다면 문제가 되지 않지만, 너무 강하여, 구동부에 영향을 주는 정도라면, 탈조가 발생할 수 있습니다.
 | 큐라의 설정값에서 이동속도가 빠른 경우에도 나타날 수 있습니다. 만일 기본 설정값이 아니라 설정을 변경한 적이 있다면, 기본 이동속도로 설정해 주시기 바랍니다.
 | 풀리 자체가 모터 축에 고정이 되어 있던 것이 약간 풀린 경우가 있을 수 있습니다. X,Y 모터 축에 연결된 풀리를 수직 방향으로 움직여 보고, 회전도 시켜봅니다. 약간 이라도 풀려있다면, 흔들림이 있을 것입니다. 흔들림이 있다면, 풀리를 조여줍니다.
+
+안착 불량
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 출력시 첫 레이어에서 안착이 안되는 원인은 여러가지가 있습니다.
+
+| :blackbold:`1. 베드 노즐 사이 간격차이(레벨링)`
+|
+| 준비/점검 - 레벨링 과정을 거치면, 베드 시트에 지그재그로 표시가 됩니다. 여기서 라인의 상태를 잘 확인해보셔야 합니다.
+
+.. image:: /images/Maintenance/38_Leveling_Line_1.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+    <center-text-for-figure>꼭지점 부분이 휘어져 구불구불한 경우</center-text-for-figure>
+
+|
+
+.. image:: /images/Maintenance/39_Leveling_Line_2.jpg
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+    <center-text-for-figure>정상적인 모습 - 꼭지점 부분이 각진 경우</center-text-for-figure>
+
+|
+
+.. image:: /images/Maintenance/43_Leveling_Line_3.jpg
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+    <center-text-for-figure>레벨링이 많이 눌린 경우</center-text-for-figure>  
+
+| 꼭지점이 휘어진 경우는 라인이 안착되었더라도 실제 출력시 문제를 일으킬 만한 오프셋 설정입니다.
+
+| 꼭지점이 휘어지지 않고 각진 경우는 출력 성공 가능성이 높다고 보시면 됩니다.
+
+| 또한 구역마다 높이가 달라 어떤 구역은 휘어져 있지만, 어떤 구역은 각진 경우라면 :ref:`Z 보정 <targetZAdjust>` 을 진행하여 구역별로 높이를 보정해 줍니다.
+
+|
+| :blackbold:`2. 첫 레이어 온도`
+
+| 필라멘트의 종류마다, 실내 외기온도에 따라, 첫 레이어 온도를 변경해주는 것이 안착성공률이 좋아집니다. 대부분 200~220도 사이의 온도가 출력안착 성공률이 좋으며, 겨울이 될수록 온도를 높여주시는 것을 권장드립니다.
+
+.. image:: /images/Maintenance/40_Cura_FirstLayer_Temp.jpg
+   :width: 600
+   :align: center
+
+|
+| 큐라에서 설정 중 재료 - 첫번째 레이어 프린팅 온도를 변경해주시고 슬라이싱을 합니다.
+
+.. image:: /images/Maintenance/41_Cura_Settings.jpg
+   :width: 300
+   :align: center
+
+|
+| 설정항목이 보이지 않는다면, 메뉴중 설정-설정보기에서 찾고자 하는 항목을 검색합니다.
+
+|
+| :blackbold:`3. 첫 레이어 출력 속도`
+
+| 출력형상이 단순하지 않고, 작은 구역이 많고 복잡한 형태의 출력물 경우 첫 레이어에서 작업할때 속도를 낮춰주어야, 안착이 원만하게 됩니다.
+| 빠르게 출력을 하게 되면, 안착이 되어 냉각되기전에 다른 구역으로 이동을 함으로써 필라멘트가 함께 붙어 이동할 수 있습니다.
+
+.. image:: /images/Maintenance/42_Cura_FirstLayer_Speed.jpg
+   :width: 600
+   :align: center
+
+|
+| 이런 경우에는 큐라에서 속도 - 첫 레이어 출력 속도를 낮춰줍니다.
+| 초기 레이어 프린팅 속도는 필라멘트가 토출하면서 움직이는 속도이며,
+| 초기 레이어 이동 속도는 필라멘트가 토출하지 않으면서 움직이는 속도입니다.
+| 설정해주실 때에는 이동 속도보다 프린팅 속도가 낮아야 합니다.

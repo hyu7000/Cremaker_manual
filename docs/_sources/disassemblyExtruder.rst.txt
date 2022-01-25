@@ -1,4 +1,4 @@
-각종 출력물 증상
+익스트루더 분해
 --------------------------
 
 .. raw:: html
@@ -12,7 +12,6 @@
     .subtitle {color:black; font-weight:bold; font-size:28px}
     .blackbold {color:black; font-weight:bold;}
     .redbold {color:red; font-weight:bold;}
-    .centertext {text-align: center;}
     </style>
 
 .. role:: orangecircle
@@ -23,7 +22,6 @@
 .. role:: subtitle
 .. role:: blackbold
 .. role:: redbold
-.. role:: centertext
 
 |
 | :subtitle:`Step.1`

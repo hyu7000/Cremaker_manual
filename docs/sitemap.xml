@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://docs.cremaker.com/index.html#</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/introduction.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/assembly.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/wiring.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/workingTest.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/installCura.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/menu.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/maintenance.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/index.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/partList.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/aseembly_Part_1.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/aseembly_Part_2.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/aseembly_Part_3.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/aseembly_Part_4.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/electricalError.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/detailed_Calibration.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/typeOfError.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/cannotInsertFila.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/statusMenu.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/mainMenu.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/printMenu.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/abnormalPrinted.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/disassemblyExtruder.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/temperature_Fan.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/move.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/insert_Remove.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://docs.cremaker.com/ready_Check.html</loc>
+  <lastmod>2022-01-27T03:13:52+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

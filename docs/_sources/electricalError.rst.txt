@@ -29,16 +29,16 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 | 전원이 켜지지 않는 경우는 4가지 경우가 있습니다.
 
-| :ref:`1. 잘못된 디스플레이 통신선 배선 <targetElecError1 to paragraph>`
-| :ref:`2. 잘못된 위치에 배선 - 보드 <targetElecError2 to paragraph>`
-| :ref:`3. 잘못된 위치에 배선 - 디스플레이 <targetElecError3 to paragraph>`
-| :ref:`4. 전원 공급 이상 <targetElecError4 to paragraph>`
+| :ref:`1. 잘못된 디스플레이 통신선 배선 <targetElecPSON_Error1 to paragraph>`
+| :ref:`2. 잘못된 위치에 배선 - 보드 <targetElecPSON_Error2 to paragraph>`
+| :ref:`3. 잘못된 위치에 배선 - 디스플레이 <targetElecPSON_Error3 to paragraph>`
+| :ref:`4. 전원 공급 이상 <targetElecPSON_Error4 to paragraph>`
 
 | 주로 조립 직후 나타나며, 정상 출력 테스트를 진행한 뒤에는 자주 나타나는 증상은 아닙니다.
 
 
 
-.. _targetElecError1 to paragraph:
+.. _targetElecPSON_Error1 to paragraph:
 
 | :blackbold:`1.잘못된 디스플레이 통신선 배선`
 
@@ -64,7 +64,7 @@
 
 
 
-.. _targetElecError2 to paragraph:
+.. _targetElecPSON_Error2 to paragraph:
 
 | :blackbold:`2.잘못된 위치에 배선 - 보드`
 
@@ -84,7 +84,7 @@
 
 
 
-.. _targetElecError3 to paragraph:
+.. _targetElecPSON_Error3 to paragraph:
 
 | :blackbold:`3.잘못된 위치에 배선 - 디스플레이`
 
@@ -103,7 +103,7 @@
 | 디스플레이에 배선하는 부분이 잘못되었을 경우가 있습니다. 사진의 경우처럼 위쪽쪽 5핀에 배선한것이 아닌지 확인해보세요.
 
 
-.. _targetElecError4 to paragraph:
+.. _targetElecPSON_Error4 to paragraph:
 
 | :blackbold:`4.전원 공급 이상`
 
@@ -187,3 +187,60 @@
 | 업데이트 방법은 해당 링크에 있습니다.
 | V1.3 Beta : https://cafe.naver.com/cremaker/16729
 | V1.2 : https://cafe.naver.com/cremaker/16541
+
+
+.. _targetNotWorkingStepper:
+
+모터가 움직이지 않음
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 아래는 모터가 움직이지 않는 경우로 가능성이 높은 순서대로 입니다.
+
+| :ref:`1. 모터 드라이버의 이상 <targetElecNotWorkStepperError1 to paragraph>`
+| :ref:`2. 모터 선의 이상 <targetElecNotWorkStepperError2 to paragraph>`
+| :ref:`3. 잘못된 배선 <targetElecNotWorkStepperError2 to paragraph>`
+
+
+.. _targetElecNotWorkStepperError1 to paragraph:
+
+| :blackbold:`1. 모터 드라이버의 이상`
+
+.. image:: /images/Maintenance/44_TMC2209.png
+   :width: 500
+   :align: center
+
+| V2의 모터 드라이버는 TMC2209 입니다. 이 부품이 이상 있는지 확인하려면, 다른 축의 모터 드라이버랑 먼저 교체해보아야 합니다.
+| 예를 들어, X축이 작동하지 않고 Y축이 작동한다면, X축과 Y축을 서로 교체합니다. 교체하는 과정은 
+| 
+| 1.전원을 끕니다.
+
+.. image:: /images/Maintenance/47_Change_EachOther_MotorDriver.png
+   :width: 600
+   :align: center
+
+| 2.사진처럼 X축, Y축 모터 드라이버를 빼냅니다.
+| 3.서로 바꿔 끼워주고, 다시 작동을 시켜봅니다.
+
+|
+| 작동되던 축이 작동이 안되고, 작동 안되던 축이 작동이 된다면, 모터 드라이버의 문제일 가능성이 높습니다.
+
+
+.. _targetElecNotWorkStepperError2 to paragraph:
+
+| :blackbold:`2. 모터 선의 이상`
+
+| 모터 선이 이상이 있을 경우에는 문제가 있는 모터선과 정상적인 모터선을 서로 바꿔서 배선하신뒤 작동 시켜봅니다.
+| 작동되던 축이 작동이 안되고, 작동 안되던 축이 작동이 된다면, 모터 선의 문제일 가능성이 높습니다.
+
+
+.. _targetElecNotWorkStepperError3 to paragraph:
+
+| :blackbold:`3. 잘못된 배선`
+
+| 배선 자체를 잘못 하셨을 경우도 있지만, 배선을 꽉 끼우지 않았을 경우도 있습니다.
+
+.. image:: /images/Maintenance/46_StepperWire_Fall.jpg
+   :width: 600
+   :align: center
+
+| 문제가 되는 축의 배선을 다시 뺏다가 재배선 해보시기 바랍니다.
+

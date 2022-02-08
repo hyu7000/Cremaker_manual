@@ -55,6 +55,7 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">전기적인 오류</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#targetcannotonprinter">전원이 켜지지 않는 경우</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#found-outdated-data">업데이트 필요(Found outdated data)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#targetnotworkingstepper">모터가 움직이지 않음</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="disassemblyExtruder.html">익스트루더 분해</a></li>
@@ -103,15 +104,15 @@
 <div class="line">전원이 켜지지 않는 경우는 4가지 경우가 있습니다.</div>
 </div>
 <div class="line-block">
-<div class="line"><a class="reference internal" href="#targetelecerror1-to-paragraph"><span class="std std-ref">1. 잘못된 디스플레이 통신선 배선</span></a></div>
-<div class="line"><a class="reference internal" href="#targetelecerror2-to-paragraph"><span class="std std-ref">2. 잘못된 위치에 배선 - 보드</span></a></div>
-<div class="line"><a class="reference internal" href="#targetelecerror3-to-paragraph"><span class="std std-ref">3. 잘못된 위치에 배선 - 디스플레이</span></a></div>
-<div class="line"><a class="reference internal" href="#targetelecerror4-to-paragraph"><span class="std std-ref">4. 전원 공급 이상</span></a></div>
+<div class="line"><a class="reference internal" href="#targetelecpson-error1-to-paragraph"><span class="std std-ref">1. 잘못된 디스플레이 통신선 배선</span></a></div>
+<div class="line"><a class="reference internal" href="#targetelecpson-error2-to-paragraph"><span class="std std-ref">2. 잘못된 위치에 배선 - 보드</span></a></div>
+<div class="line"><a class="reference internal" href="#targetelecpson-error3-to-paragraph"><span class="std std-ref">3. 잘못된 위치에 배선 - 디스플레이</span></a></div>
+<div class="line"><a class="reference internal" href="#targetelecpson-error4-to-paragraph"><span class="std std-ref">4. 전원 공급 이상</span></a></div>
 </div>
 <div class="line-block">
 <div class="line">주로 조립 직후 나타나며, 정상 출력 테스트를 진행한 뒤에는 자주 나타나는 증상은 아닙니다.</div>
 </div>
-<div class="line-block" id="targetelecerror1-to-paragraph">
+<div class="line-block" id="targetelecpson-error1-to-paragraph">
 <div class="line"><span class="blackbold">1.잘못된 디스플레이 통신선 배선</span></div>
 </div>
 <div class="line-block">
@@ -124,7 +125,7 @@
 <div class="line"><br /></div>
 <div class="line">잘못된 배선은 배선 4핀과 1핀이 꼬여보입니다.(주황색 화살표 참고)</div>
 </div>
-<div class="line-block" id="targetelecerror2-to-paragraph">
+<div class="line-block" id="targetelecpson-error2-to-paragraph">
 <div class="line"><span class="blackbold">2.잘못된 위치에 배선 - 보드</span></div>
 </div>
 <a class="reference internal image-reference" href="_images/24_Wiring_In_the_wrong_Position_1.png"><img alt="_images/24_Wiring_In_the_wrong_Position_1.png" class="align-center" src="_images/24_Wiring_In_the_wrong_Position_1.png" style="width: 600px;" /></a>
@@ -136,7 +137,7 @@
 <div class="line-block">
 <div class="line">보드에 배선하는 부분이 잘못되었을 경우가 있습니다. 사진의 경우처럼 아랫쪽 5핀에 배선한것이 아닌지 확인해보세요.</div>
 </div>
-<div class="line-block" id="targetelecerror3-to-paragraph">
+<div class="line-block" id="targetelecpson-error3-to-paragraph">
 <div class="line"><span class="blackbold">3.잘못된 위치에 배선 - 디스플레이</span></div>
 </div>
 <a class="reference internal image-reference" href="_images/25_Wiring_In_the_wrong_Position_2.png"><img alt="_images/25_Wiring_In_the_wrong_Position_2.png" class="align-center" src="_images/25_Wiring_In_the_wrong_Position_2.png" style="width: 600px;" /></a>
@@ -148,7 +149,7 @@
 <div class="line-block">
 <div class="line">디스플레이에 배선하는 부분이 잘못되었을 경우가 있습니다. 사진의 경우처럼 위쪽쪽 5핀에 배선한것이 아닌지 확인해보세요.</div>
 </div>
-<div class="line-block" id="targetelecerror4-to-paragraph">
+<div class="line-block" id="targetelecpson-error4-to-paragraph">
 <div class="line"><span class="blackbold">4.전원 공급 이상</span></div>
 </div>
 <a class="reference internal image-reference" href="_images/26_BoardLed_ON.jpg"><img alt="_images/26_BoardLed_ON.jpg" class="align-center" src="_images/26_BoardLed_ON.jpg" style="width: 600px;" /></a>
@@ -201,6 +202,53 @@
 <div class="line">업데이트 방법은 해당 링크에 있습니다.</div>
 <div class="line">V1.3 Beta : <a class="reference external" href="https://cafe.naver.com/cremaker/16729">https://cafe.naver.com/cremaker/16729</a></div>
 <div class="line">V1.2 : <a class="reference external" href="https://cafe.naver.com/cremaker/16541">https://cafe.naver.com/cremaker/16541</a></div>
+</div>
+</section>
+<section id="targetnotworkingstepper">
+<span id="id3"></span><h2>모터가 움직이지 않음<a class="headerlink" href="#targetnotworkingstepper" title="이 표제에 대한 퍼머링크"></a></h2>
+<div class="line-block">
+<div class="line">아래는 모터가 움직이지 않는 경우로 가능성이 높은 순서대로 입니다.</div>
+</div>
+<div class="line-block">
+<div class="line"><a class="reference internal" href="#targetelecnotworksteppererror1-to-paragraph"><span class="std std-ref">1. 모터 드라이버의 이상</span></a></div>
+<div class="line"><a class="reference internal" href="#targetelecnotworksteppererror2-to-paragraph"><span class="std std-ref">2. 모터 선의 이상</span></a></div>
+<div class="line"><a class="reference internal" href="#targetelecnotworksteppererror2-to-paragraph"><span class="std std-ref">3. 잘못된 배선</span></a></div>
+</div>
+<div class="line-block" id="targetelecnotworksteppererror1-to-paragraph">
+<div class="line"><span class="blackbold">1. 모터 드라이버의 이상</span></div>
+</div>
+<a class="reference internal image-reference" href="_images/44_TMC2209.png"><img alt="_images/44_TMC2209.png" class="align-center" src="_images/44_TMC2209.png" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line">V2의 모터 드라이버는 TMC2209 입니다. 이 부품이 이상 있는지 확인하려면, 다른 축의 모터 드라이버랑 먼저 교체해보아야 합니다.</div>
+<div class="line">예를 들어, X축이 작동하지 않고 Y축이 작동한다면, X축과 Y축을 서로 교체합니다. 교체하는 과정은</div>
+<div class="line"><br /></div>
+<div class="line">1.전원을 끕니다.</div>
+</div>
+<a class="reference internal image-reference" href="_images/47_Change_EachOther_MotorDriver.png"><img alt="_images/47_Change_EachOther_MotorDriver.png" class="align-center" src="_images/47_Change_EachOther_MotorDriver.png" style="width: 600px;" /></a>
+<div class="line-block">
+<div class="line">2.사진처럼 X축, Y축 모터 드라이버를 빼냅니다.</div>
+<div class="line">3.서로 바꿔 끼워주고, 다시 작동을 시켜봅니다.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">작동되던 축이 작동이 안되고, 작동 안되던 축이 작동이 된다면, 모터 드라이버의 문제일 가능성이 높습니다.</div>
+</div>
+<div class="line-block" id="targetelecnotworksteppererror2-to-paragraph">
+<div class="line"><span class="blackbold">2. 모터 선의 이상</span></div>
+</div>
+<div class="line-block">
+<div class="line">모터 선이 이상이 있을 경우에는 문제가 있는 모터선과 정상적인 모터선을 서로 바꿔서 배선하신뒤 작동 시켜봅니다.</div>
+<div class="line">작동되던 축이 작동이 안되고, 작동 안되던 축이 작동이 된다면, 모터 선의 문제일 가능성이 높습니다.</div>
+</div>
+<div class="line-block" id="targetelecnotworksteppererror3-to-paragraph">
+<div class="line"><span class="blackbold">3. 잘못된 배선</span></div>
+</div>
+<div class="line-block">
+<div class="line">배선 자체를 잘못 하셨을 경우도 있지만, 배선을 꽉 끼우지 않았을 경우도 있습니다.</div>
+</div>
+<a class="reference internal image-reference" href="_images/46_StepperWire_Fall.jpg"><img alt="_images/46_StepperWire_Fall.jpg" class="align-center" src="_images/46_StepperWire_Fall.jpg" style="width: 600px;" /></a>
+<div class="line-block">
+<div class="line">문제가 되는 축의 배선을 다시 뺏다가 재배선 해보시기 바랍니다.</div>
 </div>
 </section>
 </section>

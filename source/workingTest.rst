@@ -143,6 +143,10 @@
 | ※ X,Y,Z을 연속으로 실행하는 버튼이 Home 버튼입니다.
 | ※ Z Home 이 완료되었을 때, 노즐이 정중앙에 위치하는 것이 아니라 중앙에서 살짝 왼쪽 앞에 위치하는 것은 정상적인 작동입니다.
 
+.. _targetWorkingTest_SensorHeight:
+
+^^^^^^^^^^^^^^^^^^^^^^^^
+
 .. image:: /images/WorkingTest/41_Sensor_Height.png
    :width: 600
    :align: center
@@ -198,6 +202,13 @@
 | :blackcircle:`●` 다음은 보조팬을 테스트합니다. 보조팬이 작동하는지 확인합니다.
 | :blackcircle:`●` 작동하지 않으면 취소 버튼을 누르고 배선을 점검합니다.
 | :blackcircle:`●` 보조팬 테스트 중에는 메인팬은 작동하지 않습니다.
+
+|
+| ※ 익스트루더의 보조팬이 사진처럼 덕트에 끼워져 있는지 확인합니다. 살짝 들려서 배송될 수 있기 때문에, 테스트 중에 보조팬을 덕트에 끼워줍니다.
+
+.. image:: /images/WorkingTest/Extruder_SubFan.png
+   :width: 600
+   :align: center
 
 
 예열 점검
@@ -418,6 +429,8 @@ Z수평조절
 | :orangecircle:`●` Z 프로브 오프셋의 적정 값이 정해졌다면, '저장'(1) 버튼을 누릅니다.
 | :blackcircle:`●` '저장' 버튼을 누르면 레벨링이 완료됩니다.
 
+| ※ 레벨링 라인이 제대로 그려지지 않은 상태라면, 출력이 제대로 되지 않습니다. 레벨링 라인을 정확히 점검하시고 넘어가시기 바랍니다.
+
 
 필라멘트 삽입/제거
 --------------------------
@@ -514,8 +527,61 @@ Z수평조절
 완성된 출력물 제거하기
 --------------------------
 
-.. image:: /images/WorkingTest/step_39.jpg
+.. image:: /images/WorkingTest/Remove_Parts.png
    :width: 800
 
 | :redbold:`※주의` : 완성된 출력물을 제거하기 위해서는 시트를 분리하여, 면적이 작은 출력물은 크게 상관 없지만, 면적이 큰 경우에는 천천히 살짝 구부린 다음 제거 해주시는 것이 좋습니다. 
 | 면적이 큰 출력물은 제거하는 과정에서 시트를 급격히 구부린다거나 힘을 너무 준 상태로 출력물을 제거하려다 보면, :blackbold:`시트가 뜯길 수 있으니 주의해주시기 바랍니다.`
+
+
+출력물 점검해보기
+--------------------------
+
+.. image:: /images/WorkingTest/step_39.jpg
+   :width: 800
+
+| 출력이 끝까지 된 경우에 점검해야 될 것과, 출력이 초반에 실패한 경우에 점검해야할 것들이 있습니다.
+
+| :blackbold:`출력이 성공한 경우`
+| 출력이 성공하였다면, 살펴봐야할 부분은 한가지입니다. 바닥면을 보고 레벨링이 잘 되었는지 확인하는 일입니다.
+
+.. image:: /images/WorkingTest/1_TestParts_Bad.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <center-text-for-figure>베드, 노즐 간격이 높은 경우 바닥면(왼), 옆면(오)</center-text-for-figure>
+
+| 
+| 먼저 출력이 되더라도 바닥면을 보았을 때 라인들의 틈이 보인다면, 레벨링이 좋지 않고 이후 출력에서 문제가 될 가능성이 높습니다. 이는 레벨링을 재설정하고 다시 출력해보시기 바랍니다.
+
+.. image:: /images/WorkingTest/3_TestParts_Bad.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <center-text-for-figure>베드, 노즐 간격이 낮은 경우 바닥면(왼), 옆면(오)</center-text-for-figure>
+
+|
+| 또한 출력물을 옆면에서 보았을 때, 바닥면 쪽이 삐죽 튀어나온 경우는 이후에도 출력은 가능하지만, 바닥면 부분이 퍼지는 증상이 있습니다. 이의 경우에도 레벨링을 재설정하면 증상이 완화됩니다.
+
+.. image:: /images/WorkingTest/2_TestParts_Normal.png
+   :width: 800
+   :align: center
+
+.. raw:: html
+
+   <center-text-for-figure>베드, 노즐 간격이 적당한 경우 바닥면(왼), 옆면(오)</center-text-for-figure>
+
+
+| 바닥면이 깔끔하다면, 이는 다음 출력도 정상적으로 출력될 가능성이 높습니다. 이제 :ref:`슬라이싱 프로그램 설치 <targerInstallCura>` 로 넘어가시면 됩니다.
+
+| 
+| :blackbold:`출력이 실패한 경우`
+| 출력이 실패한 경우라면, 바닥면에서 실패할 경우가 높습니다. 대부분 레벨링과 관련된 문제입니다.
+
+|
+| 노즐 아래에서 필라멘트가 뭉치는 경우, 바닥면에 붙어 있다가 떨어지는 경우
+| 이 경우는 레벨링이 제대로 되지 않았거나, 레벨링의 상태가 좋지 않습니다. 레벨링 과정에서 ㄹ 모양의 라인들이 그려졌는지 확인하고, :ref:`레벨링센서의 높이를 점검 <targetWorkingTest_SensorHeight>` 하시고, 이어서 :ref:`안착불량을 점검 <targetAbnormalPrinted_BadLanding>` 하세요.

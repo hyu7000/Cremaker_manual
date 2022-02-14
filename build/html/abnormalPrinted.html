@@ -56,7 +56,8 @@
 <li class="toctree-l3"><a class="reference internal" href="#id3">압출과다</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id4">끝부분 뭉게짐</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id5">탈조 현상</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id6">안착 불량</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#targetabnormalprinted-badlanding">안착 불량</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">출력물 모서리 수축, 들뜸, 이탈</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electricalError.html">전기적인 오류</a></li>
@@ -174,8 +175,8 @@
 <div class="line">풀리 자체가 모터 축에 고정이 되어 있던 것이 약간 풀린 경우가 있을 수 있습니다. X,Y 모터 축에 연결된 풀리를 수직 방향으로 움직여 보고, 회전도 시켜봅니다. 약간 이라도 풀려있다면, 흔들림이 있을 것입니다. 흔들림이 있다면, 풀리를 조여줍니다.</div>
 </div>
 </section>
-<section id="id6">
-<h2>안착 불량<a class="headerlink" href="#id6" title="이 표제에 대한 퍼머링크"></a></h2>
+<section id="targetabnormalprinted-badlanding">
+<span id="id6"></span><h2>안착 불량<a class="headerlink" href="#targetabnormalprinted-badlanding" title="이 표제에 대한 퍼머링크"></a></h2>
 <div class="line-block">
 <div class="line">출력시 첫 레이어에서 안착이 안되는 원인은 여러가지가 있습니다.</div>
 </div>
@@ -234,6 +235,32 @@
 <div class="line">초기 레이어 프린팅 속도는 필라멘트가 토출하면서 움직이는 속도이며,</div>
 <div class="line">초기 레이어 이동 속도는 필라멘트가 토출하지 않으면서 움직이는 속도입니다.</div>
 <div class="line">설정해주실 때에는 이동 속도보다 프린팅 속도가 낮아야 합니다.</div>
+</div>
+</section>
+<section id="id7">
+<h2>출력물 모서리 수축, 들뜸, 이탈<a class="headerlink" href="#id7" title="이 표제에 대한 퍼머링크"></a></h2>
+<div class="line-block">
+<div class="line">출력이 계속 될수록 가장자리 부분이 들뜸이 생기면서, 출력이 실패하는 경우입니다. 심한 경우 출력물이 베드에서 떨어질 수 있습니다. 이런 문제의 원인은 레벨링이나 온도와 필라멘트 재질에 따른 수축입니다.</div>
+</div>
+<a class="reference internal image-reference" href="_images/49_Parts_Shrink.png"><img alt="_images/49_Parts_Shrink.png" class="align-center" src="_images/49_Parts_Shrink.png" style="width: 600px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><span class="blackbold">1. 레벨링</span></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">넓은 면적의 출력물을 출력할 경우에 모든 부분에 레벨링이 잘되어 있지 않으면, 수축이 발생할 가능성이 있습니다. 이런 경우에는 레벨링을 다시 조절하시거나, 레벨링을 조절했는데도 문제가 생기는 경우 <a class="reference internal" href="detailed_Calibration.html#targetzadjust"><span class="std std-ref">메뉴-세부조정-Z보정</span></a> 을 통해 구역별로 레벨링을 조절해줍니다.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><span class="blackbold">2. 주변온도와 베드온도</span></div>
+</div>
+<a class="reference internal image-reference" href="_images/48_Cura_Bed_Temp.jpg"><img alt="_images/48_Cura_Bed_Temp.jpg" class="align-center" src="_images/48_Cura_Bed_Temp.jpg" style="width: 600px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">이런 경우 주변 실내온도나 베드의 온도를 높여주는 것으로 해결할 수 있습니다. 물론 ABS 계열의 필라멘트를 사용하신다면, 더욱 더 온도를 잘 맞춰주셔야 합니다.</div>
+<div class="line">보통 실내온도는 22~28도 사이가 가장 좋으며, 조금 부족하거나 넘는 경우도 출력엔 나쁘지 않습니다. 또한 베드의 온도는 필라멘트에 따라 다르며, 베드의 온도를 10도씩 높여가면서 출력 테스트 해보시길 바랍니다.</div>
+<div class="line">※ 빌드 플레이트가 베드입니다.</div>
 </div>
 </section>
 </section>

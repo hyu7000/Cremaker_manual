@@ -3,7 +3,9 @@
 
 .. raw:: html
 
-    <iframe width="700" height="394" src="https://www.youtube.com/embed/EVYpaO0tzTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <div class="video-wrap">
+      <iframe width="700" height="394" src="https://www.youtube.com/embed/EVYpaO0tzTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
 
 .. raw:: html
 

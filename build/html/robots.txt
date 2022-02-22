@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 User-agent: *
 Allow: /
 Sitemap: http://docs.cremaker.com/sitemap.xml
+=======
+User-agent: *
+Allow: /
+Sitemap: http://docs.cremaker.com/sitemap.xml
+>>>>>>> 17f40f81edb1936ac606f10c6a238cdef6d2ddac

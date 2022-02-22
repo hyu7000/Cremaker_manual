@@ -58,6 +58,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#id5">탈조 현상</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#targetabnormalprinted-badlanding">안착 불량</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id7">출력물 모서리 수축, 들뜸, 이탈</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">출력중 필라멘트 토출이 안될 경우</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="electricalError.html">전기적인 오류</a></li>
@@ -164,8 +165,8 @@
 <div class="line"><br /></div>
 <div class="line"><span class="blackbold">1. 타이밍 벨트 장력이 약한 경우</span></div>
 <div class="line"><span class="blackbold">2. 타이밍 벨트 장력이 너무 강한 경우</span></div>
-<div class="line"><span class="blackbold">2. 큐라(슬라이싱 프로그램)에서 이동속도가 빠른 경우</span></div>
-<div class="line"><span class="blackbold">3. 풀리가 제대로 체결되지 않은 경우</span></div>
+<div class="line"><span class="blackbold">3. 큐라(슬라이싱 프로그램)에서 이동속도가 빠른 경우</span></div>
+<div class="line"><span class="blackbold">4. 풀리가 제대로 체결되지 않은 경우</span></div>
 </div>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -261,6 +262,43 @@
 <div class="line">이런 경우 주변 실내온도나 베드의 온도를 높여주는 것으로 해결할 수 있습니다. 물론 ABS 계열의 필라멘트를 사용하신다면, 더욱 더 온도를 잘 맞춰주셔야 합니다.</div>
 <div class="line">보통 실내온도는 22~28도 사이가 가장 좋으며, 조금 부족하거나 넘는 경우도 출력엔 나쁘지 않습니다. 또한 베드의 온도는 필라멘트에 따라 다르며, 베드의 온도를 10도씩 높여가면서 출력 테스트 해보시길 바랍니다.</div>
 <div class="line">※ 빌드 플레이트가 베드입니다.</div>
+</div>
+</section>
+<section id="id8">
+<h2>출력중 필라멘트 토출이 안될 경우<a class="headerlink" href="#id8" title="이 표제에 대한 퍼머링크"></a></h2>
+<div class="line-block">
+<div class="line">필라멘트 토출이 안되는 경우는 여러가지가 있습니다.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><span class="blackbold">1. USB를 통한 호스팅 출력</span></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">디스플레이나 보드에 USB, SD카드로 출력하는 것이 아닌 USB 케이블을 통해 PC, 라즈베리파이를 통해 출력을 진행할 수 있습니다.</div>
+<div class="line">이 경우에 출력 도중 온도가 꺼질 수 있습니다. 출력 도중에 온도가 꺼지는 이유는 호스팅으로 출력할 경우 프린터가 출력중으로 인식하지 못합니다.</div>
+<div class="line">이때 출력중이 아닐 때, 15분 이상 온도가 유지되고, 그 동안 입력(버튼 누르거나 터치)가 없으면, 안전상의 이유로 온도를 Off 합니다.</div>
+<div class="line">이는 일정시간 동안 입력없을시 온도 OFF 기능을 해제 하면 됩니다. 메뉴-설정-특성에서 맨 아래로 내리면 ‘입력 없을시 온도 OFF’를 해제 해주시면 됩니다.</div>
+<div class="line"><br /></div>
+<div class="line">※ 해당 설정항목이 없을 경우 <a class="reference internal" href="introduction.html#targetfirmware"><span class="std std-ref">디스플레이 펌웨어를 V1.3 이상으로 업데이트</span></a> 해주시면 됩니다.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><span class="blackbold">2. 테프론 튜브 손상</span></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">테프론 튜브는 노즐 내부에 있으며, 필라멘트가 통과하는 통로 역할을 합니다. 이 튜브가 손상된 원인은 메인 쿨링팬 방향이 잘못됬다거나 힘이 없어서 원활한 냉각을 해주지 못한 경우에 발생하며, 또는 필라멘트들을 출력하면서 찌꺼기가 쌓여, 막히거나 통로가 좁아진 경우입니다.</div>
+<div class="line">테프론 튜브는 소모품이기 때문에 손상될 가능성이 있습니다. 이런 경우에 <a class="reference internal" href="disassemblyExtruder.html#targetdisassemblyextruder"><span class="std std-ref">익스트루더를 분해</span></a> 하여, 새 테프론 튜브로 교체해주시면 됩니다.</div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><span class="blackbold">3. 필라멘트 품질</span></div>
+</div>
+<a class="reference internal image-reference" href="_images/50_Filament_Low_Quality.jpg"><img alt="_images/50_Filament_Low_Quality.jpg" class="align-center" src="_images/50_Filament_Low_Quality.jpg" style="width: 600px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">필라멘트에 이물질이나 굵기가 조금 오차가 있는 경우가 있습니다. 이런 경우에는 필라멘트를 토출 시키지 못합니다. 필라멘트를 제거하고, 새로운 필라멘트를 삽입해봅니다.</div>
 </div>
 </section>
 </section>

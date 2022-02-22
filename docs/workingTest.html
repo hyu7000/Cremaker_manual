@@ -210,6 +210,7 @@
 <div class="line"><a class="reference internal" href="typeOfError.html#targetfailedhoming"><span class="std std-ref">원점이동 실패 에러 원인 확인하기</span></a></div>
 <div class="line">※ X,Y,Z을 연속으로 실행하는 버튼이 Home 버튼입니다.</div>
 <div class="line">※ Z Home 이 완료되었을 때, 노즐이 정중앙에 위치하는 것이 아니라 중앙에서 살짝 왼쪽 앞에 위치하는 것은 정상적인 작동입니다.</div>
+<div class="line">※ Z Home 시 하강하지 않고 상승만 하다 끝나는 경우, 레벨링 센서의 <a class="reference internal" href="wiring.html#targetwiringtotal"><span class="std std-ref">배선</span></a> 과 <a class="reference internal" href="typeOfError.html#targetfailedhoming"><span class="std std-ref">작동상태</span></a> 를 확인해보세요.</div>
 </div>
 <hr class="docutils" id="targetworkingtest-sensorheight" />
 <a class="reference internal image-reference" href="_images/41_Sensor_Height.png"><img alt="_images/41_Sensor_Height.png" class="align-center" src="_images/41_Sensor_Height.png" style="width: 600px;" /></a>
@@ -380,6 +381,12 @@
 <div class="line"><span class="blackcircle">●</span> 익스트루더 앞부분 스프링을 완전 풀고, 내부에 이물질이나 찌꺼기가 있는지 확인합니다.</div>
 <div class="line"><span class="blackcircle">●</span> 위 단계를 진행하고도, 감지된 횟수가 나타나지만 필라멘트가 토출이 잘 되는 상황이라면, 다음 단계로 넘어갑니다.</div>
 </div>
+<a class="reference internal image-reference" href="_images/Extruder_Filament_Path.png"><img alt="_images/Extruder_Filament_Path.png" src="_images/Extruder_Filament_Path.png" style="width: 800px;" /></a>
+<center-text-for-figure>익스트루더 내부(왼)와 필라멘트가 삽입된 모습(오)</center-text-for-figure><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">※ 필라멘트가 토출되지 않는다면, 위 사진 처럼 익스트루더 정면의 스프링을 끝까지 풀어서 내부를 한번 살펴보시기 바랍니다.</div>
+<div class="line">필라멘트가 경로로 삽입이 잘 되도록, 뾰족하게 잘라주시고 곧게 펴주시기 바랍니다.</div>
+</div>
 </section>
 <section id="id6">
 <h2>레벨링이란?<a class="headerlink" href="#id6" title="이 표제에 대한 퍼머링크"></a></h2>
@@ -440,6 +447,9 @@
 <div class="line"><span class="blackcircle">●</span> 완료 후 실제 눈으로도 비틀어진 부분이나 수평이 맞는지 확인합니다.</div>
 <div class="line"><span class="blackcircle">●</span> 4군데 값이 아주 비슷할 필요는 없으며, 0.1 단위 까지만 맞추면 됩니다.</div>
 </div>
+<div class="line-block">
+<div class="line">※ 하강 과정시 원점이동 실패라는 문구가 뜨면, <a class="reference internal" href="typeOfError.html#targetfailedhoming"><span class="std std-ref">원점이동 실패의 대처 방법</span></a> 을 확인하세요.</div>
+</div>
 </section>
 <section id="targetstep28inwt-to-paragraph">
 <span id="id7"></span><h2>레벨링<a class="headerlink" href="#targetstep28inwt-to-paragraph" title="이 표제에 대한 퍼머링크"></a></h2>
@@ -483,6 +493,7 @@
 </div>
 <div class="line-block">
 <div class="line">※ 레벨링 라인이 제대로 그려지지 않은 상태라면, 출력이 제대로 되지 않습니다. 레벨링 라인을 정확히 점검하시고 넘어가시기 바랍니다.</div>
+<div class="line">레벨링 중 필라멘트가 뭉치거나 라인이 그려지지 않는다면, 베드와 노즐을 가까이 붙이는 방향으로 값을 조절해 보시기 바랍니다.</div>
 </div>
 </section>
 <section id="id8">

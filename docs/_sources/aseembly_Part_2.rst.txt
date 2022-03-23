@@ -104,45 +104,10 @@
 .. image:: /images/Assembly_2/step_15.jpg
    :width: 800
 
-| :orangecircle:`●` 벨트 장력조절을 위해 Y-Bearing 블록(D)의 M6-30 볼트를 조금 풀어줍니다. 
-| :bluecircle:`●` 앞쪽에 있는 2개의 M4-15 볼트를 오른쪽으로 돌려 벨트장력을 조절합니다.
-
-| :subtitle:`Step.12`
-
-.. image:: /images/Assembly_2/step_12.jpg
-   :width: 800
-
-| :bluecircle:`●` 벨트를 프린터의 앞쪽으로 빼내어 Y-Bearing 블록(D)의 베어링을 한바퀴 감싸고 프린터의 뒤쪽으로 벨트를 보냅니다.
-| :blackcircle:`●` 그림과 같이 벨트의 이빨이 안쪽으로 감기도록 유의합니다.
-
-|
-| :subtitle:`Step.13`
-
-.. image:: /images/Assembly_2/step_13.jpg
-   :width: 800
-
-| :bluecircle:`●` 뒤쪽으로 빼낸 벨트를 Y-Motor 블록(C)의 풀리를 한바퀴 감싸고 프린터의 앞쪽으로 벨트로 보냅니다.
-| :blackcircle:`●` 그림과 같이 벨트의 이빨이 안쪽으로 감기도록 유의합니다.
-
-|
-| :subtitle:`Step.14`
-
-.. image:: /images/Assembly_2/step_14.jpg
-   :width: 800
-
-| :orangecircle:`●` 한바퀴 감은 벨트를 베드 아래쪽에 벨트 홈이 있는 부품(F-1)에 끼워줍니다.
-| :bluecircle:`●` 화살표 방향으로 벨트를 끝까지 끼워줍니다.
-
-|
-| :subtitle:`Step.15`
-
-.. image:: /images/Assembly_2/step_15.jpg
-   :width: 800
-
 | :bluecircle:`●` 벨트 장력조절을 위해 Y-Bearing 블록(D)의 M6-30 볼트를 조금 풀어줍니다. 
 | :yellowcircle:`●` 앞쪽에 있는 2개의 M4-15 볼트를 오른쪽으로 돌려 벨트장력을 조절합니다.
 | :bluecircle:`●` 벨트 장력조절 완료 후(벨트가 탱탱하도록) M6-30 볼트를 다시 조여줍니다.
-| :blackcircle:`●` 너무 쎄게 볼트를 조이면, 부품파손이나 오작동 가능성이 있습니다.
+| :blackcircle:`●` 너무 세게 볼트를 조이면, 부품파손이나 오작동 가능성이 있습니다.
 | ※순서를 반대로 작업시 부품 파손 가능성 있습니다.
 
 |
@@ -151,7 +116,7 @@
 .. image:: /images/Assembly_2/step_16.jpg
    :width: 800
 
-| :bluecircle:`●` Z-L 블록(J)를 Z 프로파일에 M6-30 볼트로 체결합니다.
+| :bluecircle:`●` Z-L 블록(J)를 왼편의 Z 프로파일에 M6-30 볼트로 체결합니다.
 | :blackcircle:`●` 반대편의 Z-R 블록(K)도 M6-30 볼트로 체결합니다.
 
 |

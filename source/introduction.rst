@@ -42,12 +42,13 @@
 --------------------------
 
 | 메인 보드 : Marlin 2.0.8.1(Ver.cremaker)
-| 링크 :
+| 링크 : https://cafe.naver.com/cremaker/17128
 
 | 디스플레이 : BTT TFT 35 E3 2.6(Ver.cremaker)
-| 링크 : 
+| 링크 : https://cafe.naver.com/cremaker/17127
 
-
+| 빌드 방법
+| 링크 : https://cafe.naver.com/cremaker/17124
 
 
 

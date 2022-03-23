@@ -121,6 +121,7 @@
 <div class="line"><span class="orangecircle">●</span> 전원 케이블을 SMPS 파워 아래 전원 커넥터에 연결합니다.</div>
 <div class="line"><span class="blackcircle">●</span> 연결 후 전원 플러그를 끼우고, 전원 스위치를 켭니다.</div>
 <div class="line">※ 전원이 켜지지 않는 다면, <a class="reference internal" href="electricalError.html#targetcannotonprinter"><span class="std std-ref">전원이 켜지지 않는 경우</span></a> 항목을 확인하세요.</div>
+<div class="line">※ 전원이 켜지면, “베드 레벨링 값을 불러올 수 없습니다.” 에러가 뜰텐데, 조립 후 레벨링 작업이 안되어 있으면 안내되기 때문에, 신경쓰지 않으셔도 됩니다.</div>
 </div>
 </section>
 <section id="home">
@@ -435,8 +436,8 @@
 </div>
 <a class="reference internal image-reference" href="_images/step_262.jpg"><img alt="_images/step_262.jpg" src="_images/step_262.jpg" style="width: 800px;" /></a>
 <div class="line-block">
-<div class="line"><span class="blackcircle">●</span> 맞추고자 하는 부분을 정합니다. (가장 오차가 큰 2번을 예시로 합니다.)</div>
-<div class="line"><span class="orangecircle">●</span> 사진과 같이 나비너트를 돌려줍니다. (반시계=값 감소, 시계=값 증가)</div>
+<div class="line"><span class="blackcircle">●</span> 맞추고자 하는 부분을 정합니다. (가장 오차가 큰  베드 왼쪽 앞 2번을 예시로 합니다.)</div>
+<div class="line"><span class="orangecircle">●</span> 사진과 같이 나비너트를 돌려줍니다. (반시계=값 증가, 시계=값 감소)</div>
 <div class="line"><span class="bluecircle">●</span> 나비너트를 조절하고, 화면의 2번 부분을 터치하여 값을 확인합니다.</div>
 </div>
 <div class="line-block">
@@ -495,7 +496,8 @@
 </div>
 <div class="line-block">
 <div class="line">※ 레벨링 라인이 제대로 그려지지 않은 상태라면, 출력이 제대로 되지 않습니다. 레벨링 라인을 정확히 점검하시고 넘어가시기 바랍니다.</div>
-<div class="line">레벨링 중 필라멘트가 뭉치거나 라인이 그려지지 않는다면, 베드와 노즐을 가까이 붙이는 방향으로 값을 조절해 보시기 바랍니다.</div>
+<div class="line">※ 레벨링 중 필라멘트가 뭉치거나 라인이 그려지지 않는다면, 베드와 노즐을 가까이 붙이는 방향으로 값을 조절해 보시기 바랍니다.</div>
+<div class="line">※ 구간별로 레벨링이 덜되거나 되지 않는 부분이 있다면, 메뉴 - 세부조정 - <a class="reference internal" href="detailed_Calibration.html#targetzadjust"><span class="std std-ref">Z보정</span></a> 을 진행해보시기 바랍니다.</div>
 </div>
 </section>
 <section id="id8">
@@ -547,6 +549,7 @@
 <div class="line"><span class="blackcircle">●</span> 필라멘트를 삽입 후엔 필라멘트의 무게를 설정해 주시는 것이 좋습니다.</div>
 <div class="line"><span class="orangecircle">●</span> ‘무게 설정’(1) 버튼을 눌러줍니다.</div>
 <div class="line"><span class="blackcircle">●</span> 현재 필라멘트량과 필라멘트의 밀도를 볼 수 있습니다.</div>
+<div class="line">※ 무게 설정을 하게 되면, 필라멘트의 현재 잔여 필라멘트를 파악할 수 있고, 출력할 모형을 출력할 재료가 충분한지 알 수 있습니다.</div>
 </div>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -595,11 +598,11 @@
 <div class="line-block">
 <div class="line"><span class="redbold">※주의</span> : 완성된 출력물을 제거하기 위해서는 시트를 분리하여, 면적이 작은 출력물은 크게 상관 없지만, 면적이 큰 경우에는 천천히 살짝 구부린 다음 제거 해주시는 것이 좋습니다.</div>
 <div class="line">면적이 큰 출력물은 제거하는 과정에서 시트를 급격히 구부린다거나 힘을 너무 준 상태로 출력물을 제거하려다 보면, <span class="blackbold">시트가 뜯길 수 있으니 주의해주시기 바랍니다.</span></div>
+<div class="line"><span class="blackcircle">●</span> 면적이 넓은 출력물은 베드를 약간 예열을 하고 제거하면 쉽게 제거 할 수 있습니다.</div>
 </div>
 </section>
 <section id="id11">
 <h2>출력물 점검해보기<a class="headerlink" href="#id11" title="이 표제에 대한 퍼머링크"></a></h2>
-<a class="reference internal image-reference" href="_images/step_391.jpg"><img alt="_images/step_391.jpg" src="_images/step_391.jpg" style="width: 800px;" /></a>
 <div class="line-block">
 <div class="line">출력이 끝까지 된 경우에 점검해야 될 것과, 출력이 초반에 실패한 경우에 점검해야할 것들이 있습니다.</div>
 </div>

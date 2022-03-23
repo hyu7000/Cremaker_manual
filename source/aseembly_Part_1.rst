@@ -50,6 +50,7 @@
    :width: 800
 
 | :blackcircle:`●` 전체 기준으로 Y-Rod 블록(B)을 앞에 2개, 뒤에 2개씩 조립해 줍니다.
+| :blackcircle:`●` 앞, 뒤 모두 블록의 홈이 안쪽으로 오도록 합니다.
 
 |
 | :subtitle:`Step.4`

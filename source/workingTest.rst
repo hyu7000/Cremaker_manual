@@ -601,3 +601,10 @@ Z수평조절
 |
 | 노즐 아래에서 필라멘트가 뭉치는 경우, 바닥면에 붙어 있다가 떨어지는 경우
 | 이 경우는 레벨링이 제대로 되지 않았거나, 레벨링의 상태가 좋지 않습니다. 레벨링 과정에서 ㄹ 모양의 라인들이 그려졌는지 확인하고, :ref:`레벨링센서의 높이를 점검 <targetWorkingTest_SensorHeight>` 하시고, 이어서 :ref:`안착불량을 점검 <targetAbnormalPrinted_BadLanding>` 하세요.
+
+|
+| 여기까지 오시느라 수고 많으셨습니다. 이제 여러분들이 생각하는 것들을 출력해보세요.~
+
+.. image:: /images/WorkingTest/Review_1.jpg
+   :width: 800
+   :align: center

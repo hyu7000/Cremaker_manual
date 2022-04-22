@@ -25,8 +25,6 @@
    installCura
    menu
    maintenance
-   test1
-   test2
 
 
 

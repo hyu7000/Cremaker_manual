@@ -8,3 +8,4 @@
    abnormalPrinted
    electricalError
    disassemblyExtruder
+   etcError

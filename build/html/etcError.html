@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>유지보수 &mdash; 크리메이커 매뉴얼 1.0 문서</title>
+  <title>기타 증상 &mdash; 크리메이커 매뉴얼 1.0 문서</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/tooltipster.custom.css" type="text/css" />
@@ -35,8 +35,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="색인" href="genindex.html" />
     <link rel="search" title="검색" href="search.html" />
-    <link rel="next" title="에러 종류" href="typeOfError.html" />
-    <link rel="prev" title="프린트 메뉴" href="printMenu.html" /> 
+    <link rel="prev" title="익스트루더 분해" href="disassemblyExtruder.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -62,13 +61,16 @@
 <li class="toctree-l1"><a class="reference internal" href="workingTest.html">작동 테스트</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installCura.html">슬라이싱 프로그램 준비</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">UI 메뉴 설명</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">유지보수</a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="maintenance.html">유지보수</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="typeOfError.html">에러 종류</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cannotInsertFila.html">필라멘트가 삽입되지 않는 경우</a></li>
 <li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html">각종 출력물 증상</a></li>
 <li class="toctree-l2"><a class="reference internal" href="electricalError.html">전기적인 오류</a></li>
 <li class="toctree-l2"><a class="reference internal" href="disassemblyExtruder.html">익스트루더 분해</a></li>
-<li class="toctree-l2"><a class="reference internal" href="etcError.html">기타 증상</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">기타 증상</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#marlin-mode">Marlin Mode</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -87,7 +89,8 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>유지보수</li>
+          <li><a href="maintenance.html">유지보수</a> &raquo;</li>
+      <li>기타 증상</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -97,46 +100,28 @@
            <div itemprop="articleBody">
              
   <section id="id1">
-<h1>유지보수<a class="headerlink" href="#id1" title="이 표제에 대한 퍼머링크"></a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="typeOfError.html">에러 종류</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="typeOfError.html#thermal-runaway">열량 공급 한계 초과(Thermal runaway)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="typeOfError.html#heating-failed">가열 불가(Heating Failed)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="typeOfError.html#id2">최대 온도 초과 &amp; 최소 온도 이하</a></li>
-<li class="toctree-l2"><a class="reference internal" href="typeOfError.html#targetfailedhoming">원점 이동 실패, 재부팅 필요</a></li>
-<li class="toctree-l2"><a class="reference internal" href="typeOfError.html#id4">레벨링이 지속적으로 바뀌는 경우</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="cannotInsertFila.html">필라멘트가 삽입되지 않는 경우</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="cannotInsertFila.html#case-1">Case.1</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cannotInsertFila.html#case-2">Case.2</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="abnormalPrinted.html">각종 출력물 증상</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html#id2">거미줄</a></li>
-<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html#id3">압출과다</a></li>
-<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html#id4">압출불량</a></li>
-<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html#id5">끝부분 뭉게짐</a></li>
-<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html#id6">탈조 현상</a></li>
-<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html#targetabnormalprinted-badlanding">안착 불량</a></li>
-<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html#id8">출력물 모서리 수축, 들뜸, 이탈</a></li>
-<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html#id9">출력중 필라멘트 토출이 안될 경우</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="electricalError.html">전기적인 오류</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="electricalError.html#targetcannotonprinter">전원이 켜지지 않는 경우</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electricalError.html#found-outdated-data">업데이트 필요(Found outdated data)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electricalError.html#targetnotworkingstepper">모터가 움직이지 않음</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="disassemblyExtruder.html">익스트루더 분해</a></li>
-<li class="toctree-l1"><a class="reference internal" href="etcError.html">기타 증상</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="etcError.html#marlin-mode">Marlin Mode</a></li>
-</ul>
-</li>
-</ul>
+<h1>기타 증상<a class="headerlink" href="#id1" title="이 표제에 대한 퍼머링크"></a></h1>
+<style>
+.orangecircle {color:#ff5300; font-size:20px}
+.blackcircle {color:black; font-size:20px}
+.bluecircle {color:#3172f4; font-size:20px}
+.skybluecircle {color:#00FFFF; font-size:20px}
+.yellowcircle {color:#fbbc05; font-size:20px}
+.subtitle {color:black; font-weight:bold; font-size:28px}
+.blackbold {color:black; font-weight:bold;}
+.redbold {color:red; font-weight:bold;}
+</style><section id="marlin-mode">
+<h2>Marlin Mode<a class="headerlink" href="#marlin-mode" title="이 표제에 대한 퍼머링크"></a></h2>
+<div class="line-block">
+<div class="line">Marlin Mode의 화면은 3D 프린터를 다루는 방법 중 하나입니다. 주로 디스플레이가 깨지거나 작동이 안될 때 사용합니다.</div>
 </div>
+<a class="reference internal image-reference" href="_images/51_Marlin_Mode.png"><img alt="_images/51_Marlin_Mode.png" src="_images/51_Marlin_Mode.png" style="width: 600px;" /></a>
+<center-text-for-figure>Marlin Mode의 화면</center-text-for-figure><div class="line-block">
+<div class="line"><br /></div>
+<div class="line">다시 터치모드로 바꾸는 방법은, 디스플레이 화면을 꾹 누르거나, 조그 버튼을 꾹 누른 상태로 있으면 모드 선택창이 나타납니다.</div>
+<div class="line">이후 터치모드를 선택해주시면 됩니다.</div>
+</div>
+</section>
 </section>
 
 

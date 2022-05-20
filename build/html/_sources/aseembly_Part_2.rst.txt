@@ -111,6 +111,14 @@
 | ※순서를 반대로 작업시 부품 파손 가능성 있습니다.
 
 |
+| 벨트의 장력은 너무 헐겁지 않게 해주어야 합니다.
+
+.. image:: /images/Assembly_2/y_belt_ok.gif
+   :width: 50%
+.. image:: /images/Assembly_2/y_belt_no.gif
+   :width: 50%
+
+|
 | :subtitle:`Step.16`
 
 .. image:: /images/Assembly_2/step_16.jpg

@@ -114,9 +114,9 @@
 | 벨트의 장력은 너무 헐겁지 않게 해주어야 합니다.
 
 .. image:: /images/Assembly_2/y_belt_ok.gif
-   :width: 50%
+   :width: 45%
 .. image:: /images/Assembly_2/y_belt_no.gif
-   :width: 50%
+   :width: 45%
 
 |
 | :subtitle:`Step.16`

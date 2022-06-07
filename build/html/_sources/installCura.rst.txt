@@ -271,6 +271,34 @@
 | :orangecircle:`●` 저장된 SD, USB를 디스플레이에 삽입합니다.
 | :yellowcircle:`●` 출력 메뉴에서 해당 파일을 실행시켜주면, 출력이 실행됩니다.
 
+
+|
+| :subtitle:`처음 출력해볼 만한 모델링`
+
+.. image:: /images/InstallCura/ex_Modeling_1.jpg
+   :width: 800
+
+| :orangecircle:`●` https://www.thingiverse.com/thing:763622
+| :blackbold: `3D 프린터의 테스트 모델로 많이 쓰는 배 입니다.`
+
+.. image:: /images/InstallCura/ex_Modeling_2.jpg
+   :width: 800
+
+| :orangecircle:`●` https://www.thingiverse.com/thing:376601
+| :blackbold: `포켓몬스터의 피카츄입니다.`
+
+.. image:: /images/InstallCura/ex_Modeling_3.jpg
+   :width: 800
+
+| :orangecircle:`●` https://www.thingiverse.com/thing:3576952
+| :blackbold: `완성되면, 관절이 분리되어 움직일 수 있는 모델입니다.`
+
+|
+| :blackbold: `여기까지 오시느라 수고 많으셨습니다. 이쁜 모형들을 만들어 여러분이 직접 만든 출력물을 전시하거나, 주변에 자랑해보세요.`
+
+
+
+
 큐라 기본 도구
 --------------------------
 

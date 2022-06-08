@@ -35,8 +35,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="색인" href="genindex.html" />
     <link rel="search" title="검색" href="search.html" />
-    <link rel="next" title="필라멘트가 삽입되지 않는 경우" href="cannotInsertFila.html" />
-    <link rel="prev" title="유지보수" href="maintenance.html" /> 
+    <link rel="next" title="각종 출력물 증상" href="abnormalPrinted.html" />
+    <link rel="prev" title="유지보수&amp;에러&amp;불량" href="maintenance.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -62,18 +62,16 @@
 <li class="toctree-l1"><a class="reference internal" href="workingTest.html">작동 테스트</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installCura.html">슬라이싱 프로그램 준비</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">UI 메뉴 설명</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="maintenance.html">유지보수</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="maintenance.html">유지보수&amp;에러&amp;불량</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">에러 종류</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#thermal-runaway">열량 공급 한계 초과(Thermal runaway)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#heating-failed">가열 불가(Heating Failed)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id2">최대 온도 초과 &amp; 최소 온도 이하</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#targetfailedhoming">원점 이동 실패, 재부팅 필요</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">레벨링이 지속적으로 바뀌는 경우</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="cannotInsertFila.html">필라멘트가 삽입되지 않는 경우</a></li>
 <li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html">각종 출력물 증상</a></li>
-<li class="toctree-l2"><a class="reference internal" href="electricalError.html">전기적인 오류</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hardwareError.html">하드웨어 오류, 문제</a></li>
 <li class="toctree-l2"><a class="reference internal" href="disassemblyExtruder.html">익스트루더 분해</a></li>
 <li class="toctree-l2"><a class="reference internal" href="etcError.html">기타 증상</a></li>
 </ul>
@@ -94,7 +92,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="maintenance.html">유지보수</a> &raquo;</li>
+          <li><a href="maintenance.html">유지보수&amp;에러&amp;불량</a> &raquo;</li>
       <li>에러 종류</li>
       <li class="wy-breadcrumbs-aside">
       </li>
@@ -282,30 +280,6 @@
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line">모터드라이버가 문제가 있다면, 모터가 움직이지 않거나 가끔 살짝 움직이는 정도의 증상일때 해당됩니다. 작동과정에서 home 과정이 진행되지 않고, 원점 이동 실패 에러가 나타날 수 있습니다. 이 경우에는 <a class="reference internal" href="electricalError.html#targetnotworkingstepper"><span class="std std-ref">모터드라이버 점검</span></a> 을 진행해 보아야 합니다.</div>
-</div>
-</section>
-<section id="id4">
-<h2>레벨링이 지속적으로 바뀌는 경우<a class="headerlink" href="#id4" title="이 표제에 대한 퍼머링크"></a></h2>
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line">레벨링이 지속적으로 바뀌는 경우는 드물긴 하지만 있긴 합니다. 여기서 지속적이라하면, 레벨링을 설정하고 아무 변경사항 없이 다시 레벨링을 해도 높이가 달라지는 상황을 의미합니다. 이런 경우는 센서부분과 Z 구동부분을 살펴봐야 합니다.</div>
-</div>
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><span class="blackbold">1. 센서 높이가 노즐보다 많이 높은 경우</span></div>
-</div>
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line">센서가 제대로 고정되어 있는지 확인합니다. 또한 센서의 높이가 노즐보다 높게 있어야 하는게 맞지만 정상 범위보다 더 많이 높게 있는지 확인해봐야 합니다. (참조 <a class="reference internal" href="workingTest.html#targetworkingtest-sensorheight"><span class="std std-ref">센서 높이</span></a> )</div>
-</div>
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line"><span class="blackbold">2. 리드스크류가 약간 헐겁게 체결된 경우</span></div>
-</div>
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line">리드스크류가 헐겁게 체결된 경우에도 레벨링이 지속적으로 변경될 수 있습니다.</div>
-<div class="line">리드스크류를 고정하는 커플러의 볼트 2개를 살짝 풀었다가 다시 조여보시기 바랍니다. (참조 <a class="reference internal" href="aseembly_Part_3.html#targetassem3-step28-assemleadscrew"><span class="std std-ref">리드스크류 조립</span></a> )</div>
 </div>
 </section>
 </section>

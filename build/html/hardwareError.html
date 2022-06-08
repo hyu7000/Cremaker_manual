@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>준비/점검 &mdash; 크리메이커 매뉴얼 1.0 문서</title>
+  <title>하드웨어 오류, 문제 &mdash; 크리메이커 매뉴얼 1.0 문서</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/tooltipster.custom.css" type="text/css" />
@@ -35,8 +35,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="색인" href="genindex.html" />
     <link rel="search" title="검색" href="search.html" />
-    <link rel="next" title="세부조정" href="detailed_Calibration.html" />
-    <link rel="prev" title="삽입/제거" href="insert_Remove.html" /> 
+    <link rel="next" title="전기적인 오류" href="electricalError.html" />
+    <link rel="prev" title="각종 출력물 증상" href="abnormalPrinted.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -61,20 +61,20 @@
 <li class="toctree-l1"><a class="reference internal" href="wiring.html">배선하기</a></li>
 <li class="toctree-l1"><a class="reference internal" href="workingTest.html">작동 테스트</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installCura.html">슬라이싱 프로그램 준비</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="menu.html">UI 메뉴 설명</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="statusMenu.html">기본 상태창</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="mainMenu.html">메인 메뉴</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="temperature_Fan.html">온도/팬</a></li>
-<li class="toctree-l3"><a class="reference internal" href="move.html">이동</a></li>
-<li class="toctree-l3"><a class="reference internal" href="insert_Remove.html">삽입/제거</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">준비/점검</a></li>
-<li class="toctree-l3"><a class="reference internal" href="detailed_Calibration.html">세부조정</a></li>
+<li class="toctree-l1"><a class="reference internal" href="menu.html">UI 메뉴 설명</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="maintenance.html">유지보수&amp;에러&amp;불량</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="typeOfError.html">에러 종류</a></li>
+<li class="toctree-l2"><a class="reference internal" href="abnormalPrinted.html">각종 출력물 증상</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">하드웨어 오류, 문제</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="electricalError.html">전기적인 오류</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cannotInsertFila.html">필라멘트가 삽입되지 않는 경우</a></li>
+<li class="toctree-l3"><a class="reference internal" href="levelingProblem.html">레벨링이 지속적으로 바뀌는 경우</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="printMenu.html">프린트 메뉴</a></li>
+<li class="toctree-l2"><a class="reference internal" href="disassemblyExtruder.html">익스트루더 분해</a></li>
+<li class="toctree-l2"><a class="reference internal" href="etcError.html">기타 증상</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="maintenance.html">유지보수&amp;에러&amp;불량</a></li>
 </ul>
 
         </div>
@@ -91,9 +91,8 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-          <li><a href="menu.html">UI 메뉴 설명</a> &raquo;</li>
-          <li><a href="mainMenu.html">메인 메뉴</a> &raquo;</li>
-      <li>준비/점검</li>
+          <li><a href="maintenance.html">유지보수&amp;에러&amp;불량</a> &raquo;</li>
+      <li>하드웨어 오류, 문제</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -102,8 +101,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="targetreadycheckmenu">
-<span id="id1"></span><h1>준비/점검<a class="headerlink" href="#targetreadycheckmenu" title="이 표제에 대한 퍼머링크"></a></h1>
+  <section id="id1">
+<h1>하드웨어 오류, 문제<a class="headerlink" href="#id1" title="이 표제에 대한 퍼머링크"></a></h1>
 <style>
 .orangecircle {color:#ff5300; font-size:20px}
 .blackcircle {color:black; font-size:20px}
@@ -113,19 +112,25 @@
 .subtitle {color:black; font-weight:bold; font-size:28px}
 .blackbold {color:black; font-weight:bold;}
 .redbold {color:red; font-weight:bold;}
-</style><a class="reference internal image-reference" href="_images/6_Ready_Check_Menu.jpg"><img alt="_images/6_Ready_Check_Menu.jpg" src="_images/6_Ready_Check_Menu.jpg" style="width: 800px;" /></a>
-<div class="line-block">
+</style><div class="line-block">
 <div class="line"><br /></div>
-<div class="line">팬 점검 : 팬을 점검하는 기능.</div>
-<div class="line">예열 : 예열 성능을 점검하는 기능.</div>
-<div class="line">XY 점검 : 벨트 텐션과 배선 등을 점검하는 기능.</div>
-<div class="line">필라멘트 : 필라멘트 압출 관련 성능을 점검하는 기능.</div>
-<div class="line">Z 수평 조절 : X축 좌우가 수평을 맞추고, 베드 전체의 Z 방향 수평도 맞추는 기능.</div>
-<div class="line">레벨링 : 오토레벨링을 이용하여 Z 프로브 오프셋 값을 조절하는 기능..</div>
+<div class="line">하드웨어와 관련된 문제들을 설명해둔 스텝입니다.</div>
 </div>
-<div class="line-block">
-<div class="line"><br /></div>
-<div class="line">※각 기능의 상세 설명은 ‘작동 테스트’ 목차를 확인하세요.</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="electricalError.html">전기적인 오류</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="electricalError.html#targetcannotonprinter">전원이 켜지지 않는 경우</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electricalError.html#found-outdated-data">업데이트 필요(Found outdated data)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="electricalError.html#targetnotworkingstepper">모터가 움직이지 않음</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cannotInsertFila.html">필라멘트가 삽입되지 않는 경우</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cannotInsertFila.html#case-1">Case.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cannotInsertFila.html#case-2">Case.2</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="levelingProblem.html">레벨링이 지속적으로 바뀌는 경우</a></li>
+</ul>
 </div>
 </section>
 

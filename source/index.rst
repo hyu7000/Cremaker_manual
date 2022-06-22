@@ -7,7 +7,7 @@
 ==================
 
 | 3D 프린터 크리메이커의 매뉴얼업니다.
-| 크리메이커의 공식 카페는 http://www.cremaker.com 입니다.
+| 크리메이커의 공식 카페는 https://cafe.naver.com/cremaker 입니다.
 
 .. image:: /images/cremaker.png
    :width: 250
@@ -25,6 +25,7 @@
    installCura
    menu
    maintenance
+   chamber
 
 
 

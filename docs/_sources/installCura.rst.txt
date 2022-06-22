@@ -71,8 +71,8 @@
 .. image:: /images/InstallCura/step_4.jpg
    :width: 800
 
-| :orangecircle:`●` 다운로드한 파일을 실행합니다.
-| :blackcircle:`●` 실행 후 첫 창에서 '다음>'버튼을 누릅니다.
+| :blackcircle:`●` 다운로드한 파일을 실행합니다.
+| :blackcircle:`●` 실행 후 첫 창에서 'Next>'버튼을 누릅니다.
 
 |
 | :subtitle:`Step.5`
@@ -80,7 +80,7 @@
 .. image:: /images/InstallCura/step_5.jpg
    :width: 800
 
-| :orangecircle:`●` 사용권 계약 창에서 '동의함' 버튼을 누릅니다.
+| :blackcircle:`●` 사용권 계약 창에서 'I Agree' 버튼을 누릅니다.
 
 |
 | :subtitle:`Step.6`
@@ -88,7 +88,7 @@
 .. image:: /images/InstallCura/step_6.jpg
    :width: 800
 
-| :orangecircle:`●` 설치 위치를 선택하고, '다음>' 버튼을 누릅니다.
+| :blackcircle:`●` 설치 위치를 선택하고, 'Next>' 버튼을 누릅니다.
 
 |
 | :subtitle:`Step.7`
@@ -96,7 +96,7 @@
 .. image:: /images/InstallCura/step_7.jpg
    :width: 800
 
-| :orangecircle:`●` 시작 메뉴 폴더 선택 창에서 '다음>' 버튼을 누릅니다.
+| :blackcircle:`●` 시작 메뉴 폴더 선택 창에서 'Install' 버튼을 누릅니다.
 
 |
 | :subtitle:`Step.8`
@@ -104,7 +104,7 @@
 .. image:: /images/InstallCura/step_8.jpg
    :width: 800
 
-| :orangecircle:`●` 구성 요소 선택 창에서 '설치' 버튼을 누릅니다.
+| :blackcircle:`●` 설치될때까지 기다립니다.
 
 |
 | :subtitle:`Step.9`
@@ -113,7 +113,7 @@
    :width: 800
 
 | :orangecircle:`●` Cura 실행하기에 체크를 하고,
-| :yellowcircle:`●` 마침 버튼을 누릅니다.
+| :yellowcircle:`●` 'Finish' 버튼을 누릅니다.
 
 큐라 세팅
 --------------------------
@@ -172,6 +172,19 @@
 |
 | :subtitle:`Step.16`
 
+.. step_18 이미지는 step.16으로 매칭됨
+
+.. image:: /images/InstallCura/step_18.jpg 
+   :width: 800
+
+| :blackcircle:`●` 언어가 영문으로 표기된다면 Settings - Configure setting visibility... 메뉴에 들어가 General - Language 항목에서 한국어로 바꾸시면 됩니다.
+| :blackcircle:`●` 프로그램 종료후 재실행합니다.
+
+|
+| :subtitle:`Step.17`
+
+.. step_16 이미지는 step.17으로 매칭됨
+
 .. image:: /images/InstallCura/step_16.jpg
    :width: 800
 
@@ -180,7 +193,9 @@
 | ※ 버전마다 이름은 다를 수 있습니다.
 
 |
-| :subtitle:`Step.17`
+| :subtitle:`Step.18`
+
+.. step_17 이미지는 step.18으로 매칭됨
 
 .. image:: /images/InstallCura/step_17.jpg
    :width: 800
@@ -188,13 +203,7 @@
 | :orangecircle:`●` 여러 가지 설정이 나오며, 각각의 설정에 마우스를 올려두면, 상세 설명이 표시됩니다.
 | :blackcircle:`●` 필요에 따라 변경해주시면 되지만, 처음에는 특별한 경우가 아니면 기본값을 권장드립니다.
 
-|
-| :subtitle:`Step.18`
 
-.. image:: /images/InstallCura/step_18.jpg
-   :width: 800
-
-| :blackcircle:`●` 언어가 영문으로 표기된다면 Settings - Configure setting visibility... 메뉴에 들어가 General - Language 항목에서 한국어로 바꾸시면 됩니다.
 
 큐라 사용하기
 --------------------------
@@ -296,7 +305,9 @@
 |
 | :blackbold:`이쁜 모형들을 만들어 여러분이 직접 만든 출력물을 전시하거나, 주변에 자랑해보세요.`
 
-
+.. image:: /images/WorkingTest/Review_1.jpg
+   :width: 800
+   :align: center
 
 
 큐라 기본 도구
@@ -392,3 +403,5 @@
 .. image:: /images/InstallCura/setiings_6_BPCT.jpg
    :width: 800
    :align: center
+
+

@@ -253,3 +253,9 @@ Z 보정
 | :blackcircle:`●` 문제가 있는 구역을 전부 조절해 줍니다.
 | :blackcircle:`●` 각 구역별로 조절 후 저장 버튼을 누르면 자동 저장됩니다.
 | :blackcircle:`●` 완료되었으면, 뒤로 버튼을 눌러줍니다.
+
+|
+| ※ 최신 '베타'버전 펌웨어에서 편의성이 향상된 Z 보정기능을 제공합니다.
+| 아래 링크를 참고하세요.
+| https://cafe.naver.com/cremaker/17714
+| https://cafe.naver.com/cremaker/17715

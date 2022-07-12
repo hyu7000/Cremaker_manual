@@ -12,6 +12,7 @@
     .skybluecircle {color:#00FFFF; font-size:20px}
     .yellowcircle {color:#fbbc05; font-size:20px}
     .subtitle {color:black; font-weight:bold; font-size:28px}
+    .subtitlesmall {color:black; font-weight:bold; font-size:20px}
     .blackbold {color:black; font-weight:bold;}
     .redbold {color:red; font-weight:bold;}
     </style>
@@ -22,6 +23,7 @@
 .. role:: skybluecircle
 .. role:: yellowcircle
 .. role:: subtitle
+.. role:: subtitlesmall
 .. role:: blackbold
 .. role:: redbold
 
@@ -219,6 +221,13 @@ PID
 Z 보정
 ~~~~~~~~~~~~~~
 
+| Z 보정은 버전에 따라 다릅니다. 아래 그림을 보고 버전을 확인하세요.
+
+.. image:: /images/MenuUI/V13_V14_Z_Offset_Calibration.jpg
+   :width: 800
+   :align: center
+
+|
 | :subtitle:`[1.4버전 이상]`
 
 .. image:: /images/MenuUI/33_V14_DC_Z_Offset_Calibration.png

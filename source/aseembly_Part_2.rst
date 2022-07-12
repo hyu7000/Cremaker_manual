@@ -99,6 +99,10 @@
 | :orangecircle:`●` 한바퀴 감은 벨트를 베드 아래쪽에 벨트 홈이 있는 부품(F-1)에 끼워줍니다.
 | :bluecircle:`●` 화살표 방향으로 벨트를 끝까지 끼워줍니다.
 
+.. _targetAssem2_Step15_Y_Tension:
+
+^^^^^^^^^^^^^^^^^^^^^^^^
+
 |
 | :subtitle:`Step.15`
 

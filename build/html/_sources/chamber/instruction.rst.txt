@@ -23,9 +23,11 @@
 
 .. image:: ../images/Chamber/SS_LED.png
    :width: 450
+   :align: center
 
 .. image:: ../images/Chamber/PS_LED.png
    :width: 450
+   :align: center
 
 |
 | :orangecircle:`●` LED를 켜고 끄는 방법은 상태창에서는 로고 부분을, 출력중일 때에는 진행률 퍼센트 부분을 눌러주면, LED가 켜지고 꺼집니다.

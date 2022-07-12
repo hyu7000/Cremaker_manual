@@ -219,6 +219,53 @@ PID
 Z 보정
 ~~~~~~~~~~~~~~
 
+| :subtitle:`[1.4버전 이상]`
+
+.. image:: /images/MenuUI/33_V14_DC_Z_Offset_Calibration.png
+   :width: 500
+   :align: center
+
+|
+| 테스트 : 표시된 지점에서 테스트 출력을 진행하는 버튼.
+| 다음 : 포인트 위치를 옮길 수 있는 버튼.
+| 저장 : 변경된 값을 저장하는 버튼.
+| ※ Z 보정 값은 조그버튼을 돌려서 변경합니다.
+
+| Z 보정을 하는 이유는 '준비/점검'의 레벨링 기능보다 더 정밀하고 각 구역별로 Offset을 증감하기 위함입니다. 레벨링 기능을 사용을 했더라도 일부 구역이 계속 들뜨거나 눌린다면, Z 보정을 통해 조절할 수 있습니다. 
+
+.. raw:: html
+
+   <div class="video-wrap">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/NOJCHyejXZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
+| :subtitle:`Step.1`
+
+.. image:: /images/MenuUI/34_V14_DC_Z_Offset_Calibration_Step_1.png
+   :width: 500
+   :align: center
+
+|
+| :orangecircle:`●` 테스트(1) 버튼을 눌러줍니다. home과 레벨링을 진행합니다.
+| :blackcircle:`●` 이후 첫 번째 지점에서 테스트 라인을 출력합니다.
+| :blackcircle:`●` 라인의 상태를 확인합니다.
+
+| :subtitle:`Step.2`
+
+.. image:: /images/MenuUI/35_V14_DC_Z_Offset_Calibration_Step_2.png
+   :width: 500
+   :align: center
+
+|
+| :blackcircle:`●` 조그 버튼으로 보정 값을 라인 상태에 맞춰 적절하게 변경해줍니다.
+| :bluecircle:`●` 라인이 너무 눌려 있으면 + 값, 너무 떠 있으면 - 값을 설정해주고 저장(2) 버튼을 눌러줍니다.
+| :orangecircle:`●` 테스트(1) 버튼을 눌러 다시 라인을 확인합니다.
+| :blackcircle:`●` 적절한 라인이 그려지면, 다음 포인트로 이동하고 반복합니다.
+| :blackcircle:`●` 완료 후 뒤로 버튼을 눌러 값을 저장합니다.
+|
+
+| :subtitle:`[1.3버전 이하]`
+
 .. image:: /images/MenuUI/33_DC_Z_Offset_Calibration.jpg
    :width: 800
 
@@ -254,8 +301,3 @@ Z 보정
 | :blackcircle:`●` 각 구역별로 조절 후 저장 버튼을 누르면 자동 저장됩니다.
 | :blackcircle:`●` 완료되었으면, 뒤로 버튼을 눌러줍니다.
 
-|
-| ※ 최신 '베타'버전 펌웨어에서 편의성이 향상된 Z 보정기능을 제공합니다.
-| 아래 링크를 참고하세요.
-| https://cafe.naver.com/cremaker/17714
-| https://cafe.naver.com/cremaker/17715

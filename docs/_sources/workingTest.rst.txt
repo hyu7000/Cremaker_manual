@@ -343,8 +343,8 @@ XY 점검
 | :blackcircle:`●` 필라멘트가 토출되는 길이는 40~45cm 이상이어야 좋습니다.
 | :blackcircle:`●` 토출된 필라멘트 길이가 짧지 않다면, 다음 단계로 넘어갑니다.
 |
-| ※토출되는 길이가 40cm 보다 짧고, 감지된 횟수가 많은 경우에는 다음과 같은 과정을 진행해줍니다.
-| :blackcircle:`●` 메인 펌웨어 버전 1.2 기준으로 토출 길이가 40cm 이기 때문에 버전을 확인해줍니다. (메뉴 - 설정 - 정보에서 확인)
+| ※토출 길이가 40cm 보다 짧고, 감지된 횟수가 많은 경우에는 다음과 같은 과정을 진행해줍니다.
+| :blackcircle:`●` 메인 펌웨어 버전 1.2 기준으로 토출 길이가 40cm 이며, 버전을 확인해줍니다. (메뉴-설정-정보에서 확인)
 | :blackcircle:`●` 예열을 하고 충분히 시간이 지난 뒤(10분 정도) 다시 시도해 봅니다.
 | :blackcircle:`●` 익스트루더 앞부분 스프링을 먼저 살짝 풀고 다시 시도해봅니다. 이 과정에서 스프링의 길이가 20mm 를 약간 넘어가도 무방합니다.
 | :blackcircle:`●` 익스트루더 앞부분 스프링을 완전 풀고, 내부에 이물질이나 찌꺼기가 있는지 확인합니다.
@@ -472,8 +472,15 @@ Z수평조절
 |
 | :subtitle:`Step.31`
 
-.. image:: /images/WorkingTest/step_31.jpg
-   :width: 800
+.. image:: /images/Maintenance/38_Leveling_Line_1.png
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+    <center-text-for-figure>꼭지점 부분이 휘어져 구불구불한 경우</center-text-for-figure>
+
+|
 
 .. image:: /images/Maintenance/39_Leveling_Line_2.jpg
    :width: 600
@@ -481,11 +488,25 @@ Z수평조절
 
 .. raw:: html
 
-    <center-text-for-figure>규칙적으로 출력된 모습</center-text-for-figure>
+    <center-text-for-figure>규칙적으로 출력된 모습(정상)</center-text-for-figure>
 
+|
+
+.. image:: /images/Maintenance/43_Leveling_Line_3.jpg
+   :width: 600
+   :align: center
+
+.. raw:: html
+
+    <center-text-for-figure>레벨링이 많이 눌린 경우</center-text-for-figure>  
+
+|
+
+.. image:: /images/WorkingTest/step_31.jpg
+   :width: 800
 
 | :blackcircle:`●` 한번 더 레벨링을 실행하고 라인상태가 규칙적으로 출력되는지 확인합니다.
-| :orangecircle:`●` '저장'(1) 버튼을 눌러 레벨링을 완료합니다.
+| :orangecircle:`●` 규칙적이라면, '저장'(1) 버튼을 눌러 레벨링을 완료합니다.
 
 | ※ 레벨링 라인이 제대로 그려지지 않은 상태라면, 출력이 제대로 되지 않습니다. 레벨링 라인을 정확히 점검하시고 넘어가시기 바랍니다.
 | ※ 레벨링 중 필라멘트가 뭉치거나 라인이 그려지지 않는다면, 베드와 노즐을 가까이 붙이는 방향으로 값을 조절해 보시기 바랍니다.

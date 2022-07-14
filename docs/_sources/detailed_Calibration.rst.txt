@@ -211,8 +211,12 @@ PID
 .. image:: /images/MenuUI/32_DC_Motor_Sensitivity_Step_2.jpg
    :width: 800
 
+.. image:: /images/MenuUI/32_DC_Motor_Sensitivity_Step_2_2.jpg
+   :width: 800
+
 |
 | :bluecircle:`●` 값을 조절 후에 'S 테스트' 버튼을 눌러 모터 감도가 적절한지 확인합니다.
+| :blackcircle:`●` 'S 테스트'를 하기 전 익스트루더와 베드를 사진과 같이 중앙에 위치시켜줍니다.
 | :blackcircle:`●` 정상적으로 원점 이동이 되면, 감도가 적절한 수준입니다.
 | :orangecircle:`●` 조절이 되었으면, 저장 버튼을 누릅니다.
 

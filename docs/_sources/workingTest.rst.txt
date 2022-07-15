@@ -336,12 +336,17 @@ XY 점검
 |
 | :subtitle:`Step.23`
 
-.. image:: /images/WorkingTest/step_23.png
+.. image:: /images/WorkingTest/Printer_41cm.png
    :width: 800
 
 | :blackcircle:`●` 필라멘트가 삽입되면서 토출되는 것을 확인합니다.
 | :blackcircle:`●` 필라멘트가 토출되는 길이는 40~45cm 이상이어야 좋습니다.
 | :blackcircle:`●` 토출된 필라멘트 길이가 짧지 않다면, 다음 단계로 넘어갑니다.
+|
+
+.. image:: /images/WorkingTest/step_23.png
+   :width: 600
+
 |
 | ※토출 길이가 40cm 보다 짧고, 감지된 횟수가 많은 경우에는 다음과 같은 과정을 진행해줍니다.
 | :blackcircle:`●` 메인 펌웨어 버전 1.2 기준으로 토출 길이가 40cm 이며, 버전을 확인해줍니다. (메뉴-설정-정보에서 확인)

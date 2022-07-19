@@ -526,11 +526,10 @@ Z수평조절
 
 .. image:: /images/WorkingTest/CheckAfterLeveling.gif
    :width: 600
+   :align: center
 
-|
 | 레벨링을 완료하고 손으로 긁었을 경우 쉽게 떨어지면 레벨링이 불안정한 상태입니다.
 | 좀 더 낮춰주세요.
-|
 
 .. image:: /images/WorkingTest/step_31.jpg
    :width: 800

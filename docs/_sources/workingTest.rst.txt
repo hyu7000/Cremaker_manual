@@ -347,6 +347,7 @@ XY 점검
    
 .. image:: /images/WorkingTest/Printer_41cm.png
    :width: 400
+   :align: center
 
 | :blackcircle:`●` 필라멘트가 삽입되면서 토출되는 것을 확인합니다.
 | :blackcircle:`●` 필라멘트가 토출되는 길이는 40~45cm 이상이어야 좋습니다.

@@ -524,17 +524,17 @@ Z수평조절
 
 |
 
-.. image:: /images/WorkingTest/CheckAfterLeveling.gif
-   :width: 600
-   :align: center
-
-| 레벨링을 완료하고 손으로 긁었을 경우 쉽게 떨어지면 레벨링이 불안정한 상태입니다.
-| 좀 더 낮춰주세요.
-
 .. image:: /images/WorkingTest/step_31.jpg
    :width: 800
 
 | :blackcircle:`●` 한번 더 레벨링을 실행하고 라인상태가 규칙적으로 출력되는지 확인합니다.
+
+.. image:: /images/WorkingTest/CheckAfterLeveling.gif
+   :width: 600
+   :align: center
+
+|
+| :blackcircle:`●` 레벨링을 완료하고 손으로 긁었을 경우 쉽게 떨어지면 레벨링이 불안정한 상태입니다. 좀 더 낮춰주세요.
 | :orangecircle:`●` 규칙적이라면, '저장'(1) 버튼을 눌러 레벨링을 완료합니다.
 
 | ※ 레벨링 라인이 제대로 그려지지 않은 상태라면, 출력이 제대로 되지 않습니다. 레벨링 라인을 정확히 점검하시고 넘어가시기 바랍니다.

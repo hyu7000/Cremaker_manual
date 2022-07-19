@@ -7,6 +7,10 @@
       <iframe width="700" height="394" src="https://www.youtube.com/embed/gJar8GA4ik4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
 
+
+| ※영상의 내용이 초기 버전을 기준으로 촬영되었기 때문에 참고만 해주시고, 작업은 매뉴얼을 따라 진행해주세요.
+
+
 .. raw:: html
 
     <style> 
@@ -32,6 +36,7 @@
 |
 | ※작동테스트 과정은 3D 프린터가 조립이 잘되었는지 필요한 기능들을 작동시켜 보는 과정입니다.
 | 순서대로 차근차근 진행해주시기 바랍니다.
+
 
 
 전원 연결
@@ -336,19 +341,18 @@ XY 점검
 |
 | :subtitle:`Step.23`
 
-.. image:: /images/WorkingTest/Printer_41cm.png
-   :width: 800
-
-| :blackcircle:`●` 필라멘트가 삽입되면서 토출되는 것을 확인합니다.
-| :blackcircle:`●` 필라멘트가 토출되는 길이는 40~45cm 이상이어야 좋습니다.
-| :blackcircle:`●` 토출된 필라멘트 길이가 짧지 않다면, 다음 단계로 넘어갑니다.
-|
 
 .. image:: /images/WorkingTest/step_23.png
    :width: 600
+   
+.. image:: /images/WorkingTest/Printer_41cm.png
+   :width: 400
 
+| :blackcircle:`●` 필라멘트가 삽입되면서 토출되는 것을 확인합니다.
+| :blackcircle:`●` 필라멘트가 토출되는 길이는 40~45cm 이상이어야 좋습니다.
+| :blackcircle:`●` 토출된 필라멘트 길이가 짧지 않다면, 다음 과정인 :ref:`레벨링 <targetLeveling to paragraph>` 으로 넘어갑니다.
 |
-| ※토출 길이가 40cm 보다 짧고, 감지된 횟수가 많은 경우에는 다음과 같은 과정을 진행해줍니다.
+| ※토출 길이가 40cm 보다 짧고, 감지된 횟수가 많은 경우에는 아래를 진행해줍니다.
 | :blackcircle:`●` 메인 펌웨어 버전 1.2 기준으로 토출 길이가 40cm 이며, 버전을 확인해줍니다. (메뉴-설정-정보에서 확인)
 | :blackcircle:`●` 예열을 하고 충분히 시간이 지난 뒤(10분 정도) 다시 시도해 봅니다.
 | :blackcircle:`●` 익스트루더 앞부분 스프링을 먼저 살짝 풀고 다시 시도해봅니다. 이 과정에서 스프링의 길이가 20mm 를 약간 넘어가도 무방합니다.
@@ -370,6 +374,8 @@ XY 점검
 
 레벨링이란?
 --------------------------
+
+.. _targetLeveling to paragraph:
 
 | 레벨링은 노즐과 베드 사이의 간격을 조절하는 과정입니다. 메탈 V2 같은 경우 오토레벨링이 적용되어 있습니다. 오토레벨링이라 하더라도 초반의 약간의 설정이 필요합니다. 오토레벨링을 설정하는 순서는 크게 좌우 수평 맞추기, 실시간 레벨링 보정이 있습니다. 
 
@@ -442,6 +448,8 @@ Z수평조절
 --------------------------
 
 | 레벨링의 목적은 적절한 높이를 맞춰주는 데에 있습니다.
+| 레벨링이 맞지 않으면 안착이 안되어 출력 실패로 이어질 수 있습니다.
+| 이 부분이 초보자분들이 헤멜 수 있습니다만 잘 따라오시기만 하면 문제 없으실 겁니다.
 
 .. image:: /images/WorkingTest/leveling_gap.gif
    :width: 600
@@ -487,7 +495,7 @@ Z수평조절
 | :subtitle:`Step.31`
 
 .. image:: /images/Maintenance/38_Leveling_Line_1.png
-   :width: 600
+   :width: 500
    :align: center
 
 .. raw:: html
@@ -497,7 +505,7 @@ Z수평조절
 |
 
 .. image:: /images/Maintenance/39_Leveling_Line_2.jpg
-   :width: 600
+   :width: 500
    :align: center
 
 .. raw:: html
@@ -507,13 +515,21 @@ Z수평조절
 |
 
 .. image:: /images/Maintenance/43_Leveling_Line_3.jpg
-   :width: 600
+   :width: 500
    :align: center
 
 .. raw:: html
 
     <center-text-for-figure>레벨링이 많이 눌린 경우</center-text-for-figure>  
 
+|
+
+.. image:: /images/WorkingTest/CheckAfterLeveling.gif
+   :width: 600
+
+|
+| 레벨링을 완료하고 손으로 긁었을 경우 쉽게 떨어지면 레벨링이 불안정한 상태입니다.
+| 좀 더 낮춰주세요.
 |
 
 .. image:: /images/WorkingTest/step_31.jpg

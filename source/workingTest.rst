@@ -344,6 +344,7 @@ XY 점검
 
 .. image:: /images/WorkingTest/step_23.png
    :width: 600
+   :align: center
    
 .. image:: /images/WorkingTest/Printer_41cm.png
    :width: 400
@@ -351,6 +352,7 @@ XY 점검
 
 | :blackcircle:`●` 필라멘트가 삽입되면서 토출되는 것을 확인합니다.
 | :blackcircle:`●` 필라멘트가 토출되는 길이는 40~45cm 이상이어야 좋습니다.
+| :blackcircle:`●` 프린터의 하단 옆면의 길이가 약 41cm 이기 때문에 이와 비교하세요.
 | :blackcircle:`●` 토출된 필라멘트 길이가 짧지 않다면, 다음 과정인 :ref:`레벨링 <targetLeveling to paragraph>` 으로 넘어갑니다.
 |
 | ※토출 길이가 40cm 보다 짧고, 감지된 횟수가 많은 경우에는 아래를 진행해줍니다.

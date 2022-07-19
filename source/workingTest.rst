@@ -528,6 +528,7 @@ Z수평조절
    :width: 800
 
 | :blackcircle:`●` 한번 더 레벨링을 실행하고 라인상태가 규칙적으로 출력되는지 확인합니다.
+|
 
 .. image:: /images/WorkingTest/CheckAfterLeveling.gif
    :width: 600

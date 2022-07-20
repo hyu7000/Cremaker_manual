@@ -222,6 +222,7 @@
 
 |
 | 작동되던 축이 작동이 안되고, 작동 안되던 축이 작동이 된다면, 모터 드라이버의 문제일 가능성이 높습니다.
+| ※ 그림상 위에서부터 익스트루더 - Z - Y - X 축 모터드라이버입니다.
 
 
 .. _targetElecNotWorkStepperError2 to paragraph:

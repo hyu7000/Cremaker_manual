@@ -324,7 +324,7 @@ XY 점검
 .. image:: /images/WorkingTest/step_21_1.png
    :width: 600
 
-| :blackcircle:`●` 익스트루더의 스프링을 임시로 19~20mm길이 만큼 조여줍니다.
+| :blackcircle:`●` 익스트루더의 스프링을 임시로 20±0.5mm길이 만큼 조여줍니다.
 | :blackcircle:`●` 이 범위는 권장 범위로 조립상태에 따라 범위를 벗어날 수 있습니다.
 | :blackcircle:`●` ※ 와셔를 제외한 스프링만의 길이입니다.
 

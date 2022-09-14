@@ -22,7 +22,7 @@
 |
 | :subtitle:`Step.31`
 
-.. image:: /images/Chamber/step_31.jpg
+.. image:: /images/Chamber/step_31.png
    :width: 800
 
 | :blackcircle:`●` 조립된 밑판과 뒷판을 그림과 같이 준비합니다.
@@ -38,7 +38,7 @@
 |
 | :subtitle:`Step.33`
 
-.. image:: /images/Chamber/step_33.jpg
+.. image:: /images/Chamber/step_33.png
    :width: 800
 
 | :blackcircle:`●` Step.32에서 옆판을 그림과 같이 준비합니다.
@@ -46,7 +46,7 @@
 |
 | :subtitle:`Step.34`
 
-.. image:: /images/Chamber/step_34.jpg
+.. image:: /images/Chamber/step_34.png
    :width: 800
 
 | :orangecircle:`●` 옆판의 옆면에 M4-15볼트(D) 6개로 체결해줍니다.
@@ -54,7 +54,7 @@
 |
 | :subtitle:`Step.35`
 
-.. image:: /images/Chamber/step_35.jpg
+.. image:: /images/Chamber/step_35.png
    :width: 800
 
 | :blackcircle:`●` 반대편 옆판도 Step.33~34와 같이 작업해줍니다.
@@ -62,7 +62,7 @@
 |
 | :subtitle:`Step.36`
 
-.. image:: /images/Chamber/step_36.jpg
+.. image:: /images/Chamber/step_36.png
    :width: 800
 
 | :blackcircle:`●` 윗판을 준비해줍니다.
@@ -79,7 +79,7 @@
 |
 | :subtitle:`Step.38`
 
-.. image:: /images/Chamber/step_38.jpg
+.. image:: /images/Chamber/step_38.png
    :width: 800
 
 | :blackcircle:`●` 프린터를 넣어줍니다.
@@ -87,7 +87,7 @@
 |
 | :subtitle:`Step.39`
 
-.. image:: /images/Chamber/step_39.jpg
+.. image:: /images/Chamber/step_39.png
    :width: 800
 
 | :blackcircle:`●` 앞판을 준비해줍니다.

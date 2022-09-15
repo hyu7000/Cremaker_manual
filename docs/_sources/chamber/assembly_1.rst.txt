@@ -73,7 +73,7 @@
 |
 | :subtitle:`Step.7`
 
-.. image:: ../images/Chamber/step_7.jpg
+.. image:: ../images/Chamber/step_7.png
    :width: 800
 
 | :blackcircle:`●` 뒷판을 준비합니다. 뒷판의 특징은 큰 원형 홀이 있는 것입니다.
@@ -81,7 +81,7 @@
 |
 | :subtitle:`Step.8`
 
-.. image:: ../images/Chamber/step_8.jpg
+.. image:: ../images/Chamber/step_8.png
    :width: 800
 
 | :blackcircle:`●` 뒷판에도 조립된 브라켓(step.4)을 아랫 모서리를 제외하고 모두 조립해줍니다.
@@ -89,7 +89,7 @@
 |
 | :subtitle:`Step.9`
 
-.. image:: ../images/Chamber/step_9.jpg
+.. image:: ../images/Chamber/step_9.png
    :width: 800
 
 | :orangecircle:`●` 필터(I)를 M4-50 볼트(J)를 이용하여, 체결해줍니다.
@@ -108,7 +108,7 @@
 |
 | :subtitle:`Step.11`
 
-.. image:: ../images/Chamber/step_11.jpg
+.. image:: ../images/Chamber/step_11.png
    :width: 800
 
 | :blackcircle:`●` 옆판을 준비합니다. 옆판은 창문이 들어갈 큰 홈이 있는 것입니다.
@@ -116,7 +116,7 @@
 |
 | :subtitle:`Step.12`
 
-.. image:: ../images/Chamber/step_12.jpg
+.. image:: ../images/Chamber/step_12.png
    :width: 800
 
 | :blackcircle:`●` 옆판에도 조립된 브라켓(step.4)을 아랫, 뒷 모서리를 제외하고 모두 조립해줍니다.
@@ -124,7 +124,7 @@
 |
 | :subtitle:`Step.13`
 
-.. image:: ../images/Chamber/step_13.jpg
+.. image:: ../images/Chamber/step_13.png
    :width: 800
 
 | :blackcircle:`●` 문 지지대(M)를 준비합니다. 
@@ -160,7 +160,7 @@
 |
 | :subtitle:`Step.17`
 
-.. image:: ../images/Chamber/step_17.jpg
+.. image:: ../images/Chamber/step_17.png
    :width: 800
 
 | :blackcircle:`●` Step.16에서 조립된 아크릴을 옆판에 그림과 같이 삽입해주고,
@@ -217,7 +217,7 @@
 |
 | :subtitle:`Step.23`
 
-.. image:: ../images/Chamber/step_23.jpg
+.. image:: ../images/Chamber/step_23.png
    :width: 800
 
 | :blackcircle:`●` 빨간색 브라켓(W)을 조립하여 준비합니다. 
@@ -234,7 +234,7 @@
 |
 | :subtitle:`Step.25`
 
-.. image:: ../images/Chamber/step_25.jpg
+.. image:: ../images/Chamber/step_25.png
    :width: 800
 
 | :blackcircle:`●` 앞판을 준비해줍니다. 앞판은 네모난 홈이 2개 있는 것이 특징입니다.
@@ -252,7 +252,7 @@
 |
 | :subtitle:`Step.27`
 
-.. image:: ../images/Chamber/step_27.jpg
+.. image:: ../images/Chamber/step_27.png
    :width: 800
 
 | :blackcircle:`●` 앞판의 뒷면에 문 지지대(Y)를 놓아줍니다. 

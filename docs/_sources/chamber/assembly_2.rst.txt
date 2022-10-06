@@ -27,13 +27,18 @@
 
 | :blackcircle:`●` 조립된 밑판과 뒷판을 그림과 같이 준비합니다.
 
+.. image:: /images/Chamber/step_31_1.png
+   :width: 800
+
+| :blackcircle:`●` 조립된 코너(Y)가 밑판의 경계선과 일치하는 곳이 밑판중에서 앞으로 위치 해야하는 부분입니다.
+
 |
 | :subtitle:`Step.32`
 
 .. image:: /images/Chamber/step_32.jpg
    :width: 800
 
-| :orangecircle:`●` 뒷판의 뒷면에 M4-15볼트(D) 3개로 체결해줍니다.
+| :orangecircle:`●` 뒷판의 뒷면에 M4-10볼트(D) 3개로 체결해줍니다.
 
 |
 | :subtitle:`Step.33`
@@ -49,7 +54,7 @@
 .. image:: /images/Chamber/step_34.png
    :width: 800
 
-| :orangecircle:`●` 옆판의 옆면에 M4-15볼트(D) 6개로 체결해줍니다.
+| :orangecircle:`●` 옆판의 옆면에 M4-10볼트(D) 6개로 체결해줍니다.
 
 |
 | :subtitle:`Step.35`
@@ -74,7 +79,7 @@
 .. image:: /images/Chamber/step_37.jpg
    :width: 800
 
-| :orangecircle:`●` 윗판의 윗면에 M4-15볼트(D) 9개로 체결해줍니다.
+| :orangecircle:`●` 윗판의 윗면에 M4-10볼트(D) 9개로 체결해줍니다.
 
 |
 | :subtitle:`Step.38`
@@ -91,4 +96,4 @@
    :width: 800
 
 | :blackcircle:`●` 앞판을 준비해줍니다.
-| :orangecircle:`●` 앞판의 앞면에 M4-15볼트(D) 12개로 체결해줍니다.
+| :orangecircle:`●` 앞판의 앞면에 M4-10볼트(D) 12개로 체결해줍니다.

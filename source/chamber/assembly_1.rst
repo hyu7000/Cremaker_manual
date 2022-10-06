@@ -33,7 +33,7 @@
 .. image:: ../images/Chamber/step_2.jpg
    :width: 800
 
-| :orangecircle:`●` 고무받침대(C)를 M4너트(D)와 M4-15볼트(B)를 이용하여 밑판(A)에 체결해줍니다.
+| :orangecircle:`●` 고무받침대(C)를 M4너트(D)와 M4-10볼트(B)를 이용하여 밑판(A)에 체결해줍니다.
 
 |
 | :subtitle:`Step.3`
@@ -60,7 +60,7 @@
    :width: 800
 
 | :blackcircle:`●` Step.4에서 조립된 브라켓(G)을 밑판의 테두리 부분의 홀에 체결해줍니다.
-| :orangecircle:`●` 체결 순서는 M4너트(D) - 조립된 브라켓(G) - M4-15볼트(H) 순으로 조립해줍니다.
+| :orangecircle:`●` 체결 순서는 M4너트(D) - 조립된 브라켓(G) - M4-10볼트(H) 순으로 조립해줍니다.
 
 |
 | :subtitle:`Step.6`
@@ -89,10 +89,15 @@
 |
 | :subtitle:`Step.9`
 
+.. image:: ../images/Chamber/step_9_0.png
+   :width: 800
+
+| :blackcircle:`●` 필터와 필터 케이스를 M4-50 볼트(J)를 이용하여, 체결해줍니다.
+
 .. image:: ../images/Chamber/step_9.png
    :width: 800
 
-| :orangecircle:`●` 필터(I)를 M4-50 볼트(J)를 이용하여, 체결해줍니다.
+| :orangecircle:`●` 필터(I)를 M4-50 볼트(J)를 이용하여, 뒷판에 체결해줍니다.
 | :blackcircle:`●` 체결할때 필터에는 전선이 빠져나오는 홈(I-2)이 있습니다. 이 홈이 아랫쪽으로 가도록 합니다.
 
 |
@@ -147,7 +152,7 @@
 .. image:: ../images/Chamber/step_15.jpg
    :width: 800
 
-| :bluecircle:`●` M4너트(D)를 문 손잡이(P)의 위아래로 삽입해줍니다.
+| :bluecircle:`●` M3너트(D)를 문 손잡이(P)의 위아래로 삽입해줍니다.
 
 |
 | :subtitle:`Step.16`
@@ -155,7 +160,7 @@
 .. image:: ../images/Chamber/step_16.jpg
    :width: 800
 
-| :orangecircle:`●` 문 손잡이(P)-작은 아크릴(O)-M4-15볼트(H)의 순서로 조립해줍니다.
+| :orangecircle:`●` 문 손잡이(P)-작은 아크릴(O)-M3-15볼트(H)의 순서로 조립해줍니다.
 
 |
 | :subtitle:`Step.17`
@@ -164,7 +169,7 @@
    :width: 800
 
 | :blackcircle:`●` Step.16에서 조립된 아크릴을 옆판에 그림과 같이 삽입해주고,
-| :orangecircle:`●` M4-15볼트(D) - 경첩 - 아크릴 - M4너트(H) 순으로 조립해줍니다.
+| :orangecircle:`●` M4-15볼트(D) - 경첩 - 옆판 - M4너트(H) 순으로 조립해줍니다.
 | :blackcircle:`●` 반대편 옆판에도 Step.11~Step.17을 반복합니다.
 
 |
@@ -214,6 +219,11 @@
 
 | :blackcircle:`●` 기존 메탈 V2 프린터에서 디스플레이와 필라멘트 거치대를 분리합니다.
 
+.. image:: ../images/Chamber/step_22_1.png
+   :width: 800
+
+| :blackcircle:`●` 디스플레이도 볼트를 풀어 하단을 분리해줍니다.
+
 |
 | :subtitle:`Step.23`
 
@@ -222,6 +232,7 @@
 
 | :blackcircle:`●` 빨간색 브라켓(W)을 조립하여 준비합니다. 
 | :orangecircle:`●` 디스플레이(V)와 빨간색 브라켓(W)과 M3-15볼트(U)를 순서대로 조립해줍니다.
+| :blackcircle:`●` M3-15볼트(U)는 2개를 사용하여 디스플레이의 양쪽에 조립해줍니다.
 
 |
 | :subtitle:`Step.24`
@@ -230,6 +241,7 @@
    :width: 800
 
 | :orangecircle:`●` 윗판의 중앙에 필라멘트 거치대도 조립해줍니다.
+| :blackcircle:`●` 2개의 구멍 중에 큰 구멍에 체결해줍니다.
 
 |
 | :subtitle:`Step.25`
@@ -275,8 +287,8 @@
 .. image:: ../images/Chamber/step_29.jpg
    :width: 800
 
-| :bluecircle:`●` 손잡이(P)에 M4너트(D)를 삽입해줍니다.
-| :orangecircle:`●` M4-15볼트(H) - 아크릴 - 손잡이(P)를 순서대로 조립해줍니다.
+| :bluecircle:`●` 손잡이(P)에 M3너트(D)를 삽입해줍니다.
+| :orangecircle:`●` M3-15볼트(H) - 아크릴 - 손잡이(P)를 순서대로 조립해줍니다.
 | :blackcircle:`●` Step.28에서 아크릴의 '앞'이라고 표시된 면에 손잡이가 오도록 합니다.
 
 |

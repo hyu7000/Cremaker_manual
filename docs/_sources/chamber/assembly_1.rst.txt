@@ -259,7 +259,7 @@
 .. image:: ../images/Chamber/step_26.jpg
    :width: 800
 
-| :orangecircle:`●` 온도, 습도센서를 끼워줍니다.
+| :orangecircle:`●` 온도, 습도센서를 삽입해줍니다. ※삽입전 건전지를 끼워줍니다.
 | :blackcircle:`●` 그림과 같이 삽입해주고, 방향에 주의하세요.
 
 |

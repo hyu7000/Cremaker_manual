@@ -172,6 +172,7 @@
 | :blackcircle:`●` Step.16에서 조립된 아크릴을 옆판에 그림과 같이 삽입해주고,
 | :orangecircle:`●` M4-15볼트(D) - 경첩 - 옆판 - M4너트(H) 순으로 조립해줍니다.
 | :blackcircle:`●` 반대편 옆판에도 Step.11~Step.17을 반복합니다.
+| :orangecircle:`※주의` 조립 전, 자석 극성이 맞는지 확인하시고 조립해주세요
 
 |
 | :subtitle:`Step.18`

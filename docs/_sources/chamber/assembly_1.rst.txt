@@ -58,9 +58,13 @@
 
 .. image:: ../images/Chamber/step_5.jpg
    :width: 800
+   
+.. image:: ../images/Chamber/step_5_2.png
+   :width: 800
 
 | :blackcircle:`●` Step.4에서 조립된 브라켓(G)을 밑판의 테두리 부분의 홀에 체결해줍니다.
 | :orangecircle:`●` 체결 순서는 M4너트(D) - 조립된 브라켓(G) - M4-10볼트(H) 순으로 조립해줍니다.
+| :blackcircle:`●` 육각홈에 M4 너트를 넣을 수 있도록 방향을 조절합니다.
 
 |
 | :subtitle:`Step.6`

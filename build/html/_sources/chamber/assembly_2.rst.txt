@@ -70,7 +70,7 @@
 .. image:: /images/Chamber/step_36_0.png
    :width: 600
 
-| :blackcircle:`●` 디스플레이 EXP 선을 동봉된 긴 EXP 선으로 변경해주고, 디스플레이 통신선은 5핀 듀폰 케이블에 연장시켜 줍니다.
+| :blackcircle:`●` 디스플레이 EXP 선을 동봉된 긴 EXP 선으로 바꿔서 배선해주고, 디스플레이 통신선에 동봉된 5핀 듀폰 케이블을 연장시켜 줍니다.
 
 .. image:: /images/Chamber/step_36.png
    :width: 800
